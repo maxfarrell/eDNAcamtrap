@@ -2,6 +2,8 @@
 
 rm(list=ls())
 
+set.seed(666)
+
 # functions
 logit <- function(p){ 
 	return(log(p/(1 - p)))
@@ -47,8 +49,8 @@ dat$n_waterhole[dat$site==7 & dat$time<3*(max(dat$time)/4)] <- 0
 # w <- k * exp(-timeElapsed/tau)
 # where w are the weights, k is scaling constant, tau is time constant for decay
 
-k <-0.1
-tau <- 24*60*1 # mean lifetime in minutes
+k <-1
+tau <- 24*60*1 # mean lifetime in minutes (1440)
 dat$w <- k*exp(-dat$time/tau)
 dat$edna <- dat$n_waterhole*dat$w
 # hist(dat$edna)
