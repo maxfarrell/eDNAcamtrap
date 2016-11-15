@@ -15,11 +15,11 @@ str(stan.data)
 # for dave (multi-core support):
 rstan_options(auto_write=TRUE)
 
-model <- stan_model(file="camtrap_eDNA_detected_merged.stan")
-fit <- sampling(model, data=stan.data, iter=4000, chains=2, cores=2, thin=1)
-save.image("camtrap_eDNA_host_detected_merged_alpha_noK.RData")
+# model <- stan_model(file="camtrap_eDNA_detected_merged.stan")
+# fit <- sampling(model, data=stan.data, iter=4000, chains=2, cores=2, thin=1)
+# # save.image("camtrap_eDNA_host_detected_merged_alpha_noK.RData")
 
-# load("camtrap_eDNA_host_detected_merged.RData")
+# # load("camtrap_eDNA_host_detected_merged.RData")
 # traceplot(fit)
 # print(fit)
 
@@ -28,8 +28,17 @@ save.image("camtrap_eDNA_host_detected_merged_alpha_noK.RData")
 # tau at 955.82
 # alpha not estimated...
 
-# maybe try without k parameter?
 
+
+# maybe try without k or parameters?
+# updated simulation to have tau at 0.5 of a day (720 mins)
+# and alpha = 0 (obviously wouldn't expect any chance of detection when eDNA is zero) 
+# and k=1 (no effect of scale parameter in simulation)
+model <- stan_model(file="camtrap_eDNA_detected_merged_noK_noAlpha.stan")
+fit <- sampling(model, data=stan.data, iter=4000, chains=2, cores=2, thin=1)
+save.image("camtrap_eDNA_host_detected_merged_noK_noAlpha.RData")
+# traceplot(fit)
+# print(fit)
 
 
 

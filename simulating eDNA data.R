@@ -50,7 +50,7 @@ dat$n_waterhole[dat$site==7 & dat$time<3*(max(dat$time)/4)] <- 0
 # where w are the weights, k is scaling constant, tau is time constant for decay
 
 k <-1
-tau <- 24*60*1 # mean lifetime in minutes (1440)
+tau <- 24*60*0.5 # mean lifetime in minutes (720)
 dat$w <- k*exp(-dat$time/tau)
 dat$edna <- dat$n_waterhole*dat$w
 # hist(dat$edna)
@@ -71,8 +71,8 @@ dat$edna <- dat$n_waterhole*dat$w
 # Find some way to get detected (1/0)
 edna_sums <- aggregate(edna ~ site, dat, sum)
 names(edna_sums)[2] <- "total_edna"
-# inv_logit(log10(edna_sums$total_edna))
-edna_sums$p <- inv_logit(log10(edna_sums$total_edna))
+# inv_logit((edna_sums$total_edna))
+edna_sums$p <- inv_logit((edna_sums$total_edna))
 edna_sums$detected <- rbinom(nrow(edna_sums), 1, edna_sums$p)
 edna_sums$detected
 
