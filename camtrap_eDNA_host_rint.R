@@ -14,7 +14,7 @@ str(stan.data)
 ## STAN MODEL
 # for dave (multi-core support):
 rstan_options(auto_write=TRUE)
-
+options(mc.cores = parallel;;detectCores())
 # model <- stan_model(file="camtrap_eDNA_detected_merged.stan")
 # fit <- sampling(model, data=stan.data, iter=4000, chains=2, cores=2, thin=1)
 # # save.image("camtrap_eDNA_host_detected_merged_alpha_noK.RData")
@@ -37,8 +37,9 @@ rstan_options(auto_write=TRUE)
 model <- stan_model(file="camtrap_eDNA_detected_merged_noK_noAlpha.stan")
 fit <- sampling(model, data=stan.data, iter=4000, chains=2, cores=2, thin=1)
 save.image("camtrap_eDNA_host_detected_merged_noK_noAlpha.RData")
+# load("camtrap_eDNA_host_detected_merged_noK_noAlpha.RData")
 # traceplot(fit)
-# print(fit)
+print(fit)
 
 
 
