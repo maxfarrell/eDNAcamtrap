@@ -34,7 +34,7 @@ parameters {
     real<lower=0.000001> tau;       // mean lifetime (in units of time)
 
     // to modify
-    real alpha;                     // global intercept
+    // real alpha;                     // global intercept
     // real beta_n_waterhole;          // slope for n_waterhole
     
     // Random intercepts for site
