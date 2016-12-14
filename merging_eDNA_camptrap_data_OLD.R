@@ -2,7 +2,7 @@
 
 # Max Farrell (maxwellfarrell@gmail.com)
 
-# Last updated October 17th 2016
+# Last updated November 30th 2016
 
 rm(list=ls())
 
@@ -11,16 +11,16 @@ require(biom)
 require(lubridate)
 
 ### Kruger metadata
-env <- read.csv("../Data/Kruger_2015_Environmental.csv", as.is=T)
+env <- read.csv("../../Data/Kruger_2015_Environmental.csv", as.is=T)
 names(env) <- tolower(names(env))
-camNotes <- read.csv("../Data/Kruger_2015_Camera Notes.csv", as.is=T)
+camNotes <- read.csv("../../Data/Kruger_2015_Camera Notes.csv", as.is=T)
 names(camNotes) <- tolower(names(camNotes))
 names(camNotes)[names(camNotes)=="notes"] <- "cam_notes"
-labNotes <- read.csv("../Data/Kruger_2015_Water Samples.csv", as.is=T)
+labNotes <- read.csv("../../Data/Kruger_2015_Water Samples.csv", as.is=T)
 names(labNotes) <- tolower(names(labNotes))
 
 ### Camera trap data
-trap <- read.csv("../Data/Trap Annotation/annotation_clean_sept30.csv", as.is=T)
+trap <- read.csv("../../Data/Trap Annotation/annotation_clean_sept30.csv", as.is=T)
 trap$timestamp <- ymd_hms(trap$timestamp)
 
 # Matching Site names
@@ -63,7 +63,7 @@ labNotes$site[labNotes$site=="Nyamahri"] <- "Nyamarhi"
 # # Not yet sequenced
 
 ### megablast_refLib_v7_noOTU_pident97_length_100
-seqs <- read.csv("../Data/Molecular/eDNA_camtrap/classifications/megablast_refLib_v7/seqXspec_megablast_KNP_v7_noOTU_pident97_length100.csv", as.is=T)
+seqs <- read.csv("../../Data/Molecular/eDNA_camtrap/classifications/megablast_refLib_v7/seqXspec_megablast_KNP_v7_noOTU_pident97_length100.csv", as.is=T)
 seqs$sample <- gsub("[.]","_", seqs$sample)
 seqs <- unique(seqs[,c("sample","species")])
 
@@ -100,7 +100,11 @@ env$site <- lookup[env$site]
 env <- env[!is.na(env$site),]
 
 # Joining date collected with seqs
+# require(plyr)
 seqs <- join(seqs, sample_dates)
+
+# seqs <- full_join(seqs, sample_dates)
+
 
 # seen <- NULL
 # for (i in seq_along(seqs$sample)){
@@ -119,6 +123,8 @@ seqs <- join(seqs, sample_dates)
 
 
 # NOW RE-DO DO THAT WE CAN GET INDIVIDUALS SEEN FOR 1:7 DAYS PRIOR
+
+# NOTE: REQUIRES PLYR NOT DPLYR... ddply function is now deprecated.?
 
 seen_waterhole <- NULL
 
@@ -178,6 +184,7 @@ for (i in seq_along(seqs$sample)){
 	seen_contact <- rbind(seen_contact, n_contact)
 }
 
+
 names(seen_contact)[1] <- "sample_num"
 seen_contact <- unique(seen_contact)
 seen_contact <- seen_contact[!is.na(seen_contact$binomial),]
@@ -219,19 +226,18 @@ View(seen_present)
 
 
 
+# INCOMPLETE
 # Getting amount of time drinking (thereabouts)
+# str(trap)
+# trap_sub <- trap[trap$site==seqs$site[1],]
+# trap_sub_spec <- trap_sub[trap_sub$binomial==seqs$species[1],]
+# # this causes NAs...
+# trap_sub_spec <- trap_sub_spec[!is.na(trap_sub_spec$site),]
+# dim(trap_sub_spec)
+# head(trap_sub_spec$timestamp)
+# head(trap_sub_spec$filename)
 
-str(trap)
-trap_sub <- trap[trap$site==seqs$site[1],]
-trap_sub_spec <- trap_sub[trap_sub$binomial==seqs$species[1],]
-# this causes NAs...
-trap_sub_spec <- trap_sub_spec[!is.na(trap_sub_spec$site),]
-dim(trap_sub_spec)
-head(trap_sub_spec$timestamp)
-head(trap_sub_spec$filename)
-
-View(trap_sub_spec)
-
+# View(trap_sub_spec)
 
 
 # Joining 
@@ -247,6 +253,175 @@ View(seqs)
 sort(unique(seqs$binomial))
 
 
+
+
+
+# Attempting to convert POSIX to time before sampling (for each sample)
+# NEEDED FOR STAN MODEL...
+# NOT WORKING!!>!!>!>
+
+# Maybe rip on code above to identify which photos are in 
+# the 7 day range, then try to convert these subsets in loop?
+
+require(dplyr)
+
+test <- as.numeric(trap$timestamp - seqs$collected[1])
+hist(test)
+
+require(tidyr)
+
+test <- trap
+test$site <- as.factor(test$site)
+
+test %>%
+	group_by(site) %>%
+	summarize(min_time=min(timestamp), max_time=max(timestamp), timeDifference=max_time,min_time)
+
+a <- test %>%
+	group_by(site) %>%
+	summarize(min_time=min(timestamp), max_time=max(timestamp), 
+		timeDifference = time_length(max_time - min_time, "days"))
+
+		# collected = seqs$collected[min(time_length(max_time - seqs$collected, "days"))])
+
+
+test$timestamp[test$timestamp %within% interval(seqs$collected[1]%m+%days(-7), seqs$collected[1])]
+str(seqs)
+
+sort(unique(seqs$collected))
+unique(seqs[,c("collected","site")])[1,2]
+
+test <- trap
+
+for (i in seq_along(unique(seqs$collected))){
+
+	test$collected[test$site==unique(seqs[,c("collected","site")])[i,2] & test$timestamp %within% interval(unique(seqs$collected)[i]%m+%days(-7), 
+		unique(seqs$collected)[i])] <- seqs$collected[i]
+	test$collected <- as.POSIXct(test$collected, origin="1970-01-01", tz="UTC")	
+}
+
+# MAYBE WORKED???
+
+test$collected
+sum(is.na(test$collected))
+# now 6 are na??
+test[is.na(test$collected),]
+View(test[test$site=="HOY",])
+
+str(test)
+unique(test$collected)
+
+unique(test[,c("collected","site")])
+unique(test[,c("collected","site", "date_range")])
+# LOOKS PROMISING: NEED TO FIX OVERLAP (sometimes)
+# Why does KWA date range June 17_19 say collected us June 24
+# Maybe we should actually use the date_range? not sure...
+
+
+unique(seqs[,c("collected","site")])
+
+(test$timestamp[1] - test$timestamp[2])
+time_length(test$timestamp[1] - test$timestamp[2], "seconds")
+
+
+test <- trap
+for (i in seq_along(test$timestamp)){
+	site <- test$site[i] 
+	test$collected[i] <- as.POSIXct(unique(seqs$collected[seqs$site==site & 
+						test$timestamp[i] %within% interval(seqs$collected[seqs$site==site] %m+%days(-7), 
+							seqs$collected[seqs$site==site])], origin="1970-01-01"))
+	# test$RelativeTime[i] <- difftime(test$collected[i],test$timestamp[i])		
+		
+}
+
+
+# Returning -INF for a few cases, but can't explain...
+for (i in seq_along(seqs$sample)){
+
+	test$collected[i] <- max(test$timestamp[test$site==seqs$site[i] & 
+						test$timestamp %within% interval(seqs$collected[i] %m+%days(-7), 
+							seqs$collected[i])])
+	# test$RelativeTime[i] <- difftime(test$collected[i],test$timestamp[i])		
+		
+}
+
+unique(test$collected)
+
+# WHY ARE WE GETTING -Inf for collected from DLP?
+
+View(test[test$collected==-Inf,])
+test$timestamp[test$collected==-Inf] #%m+%days(+7)
+unique(seqs$collected[seqs$site=="DLP"])
+unique(seqs$collected[seqs$site=="DLP"]%m+%days(-7))
+
+unique(test$timestamp[test$collected==-Inf]) #%m+%days(+7)
+unique(seqs$collected[seqs$site=="DLP"]%m+%days(-7))
+
+unique(seqs$collected)
+
+View(test[test$site=="DLP",])
+
+View(unique(seqs[,c("site","collected")])
+
+
+
+
+
+
+str(test)
+
+for (i in seq_along(test$timestamp)) {
+	site <- test$site[i]
+
+	test$collected[i] <- unique(seqs$collected[seqs$site==test$site[i] & 
+		(test$timestamp[i] %within% interval(seqs$collected %m+%days(-8), seqs$collected))])
+}
+
+
+
+test$RelativeTime = c(0,difftime(test$timestamp))
+head(test$RelativeTime)
+with(test, plot(RelativeTime,timestamp))
+
+diff(test$timestamp)
+
+
+for (i in seq_along(test$site)) {
+
+
+
+}
+
+str(trap)
+str(seqs)
+
+names(trap)
+names(seqs)
+
+seen_waterhole <- NULL
+
+
+str(test)
+
+a <- test$timestamp[2] - test$timestamp[1]
+
+test$collected[1] <- unique(seqs$collected[seqs$site==test$site[1] & 
+	test$timestamp[1] %within% interval(seqs$collected[1] %m+%days(-7), seqs$collected[1])])
+
+
+test$collected[1]
+
+
+
+seqs[seqs$site==test$site[36000],]
+
+
+
+names(seen_waterhole)[1] <- "sample_num"
+seen_waterhole <- unique(seen_waterhole)
+seen_waterhole <- seen_waterhole[!is.na(seen_waterhole$binomial),]
+seen_waterhole <- seen_waterhole[seen_waterhole$binomial!="Homo_sapiens",]
+View(seen_waterhole)
 
 
 
