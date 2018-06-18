@@ -1,0 +1,184 @@
+Site,Sample_code,Sample_lost,Date_collected,Time_collected,Sampling_direction,Wind_direction,Sampling_side,Sampling_notes,Cooler_temp_C,Time_fozen,Thaw_start_date,Thaw_start_time,Thaw_end_date,Thaw_end_time,Thaw_location,Date_filtered,Filtration_start,Filtration_finish,Speed_qualitative,Funnel_type,Number_filters,Replicate_taken,Number_filters_replicate,Voucher_taken,Water_colour,Filtration_notes
+Imbali,IMB_1A,Y,June_15,8:25,W_E,None,NA,Water visibly clear; Hyaena 20 minutes before sampling; elephant immediately after,4,19:05,NA,NA,,,NA,NA,NA,NA,,,,NA,,N,NA,Sample broke in freezer
+Imbali,IMB_1B,,June_15,8:27,W_E,None,NA,Water visibly clear; Hyaena 20 minutes before sampling; elephant immediately after,4,NA,NA,NA,,,NA,NA,16:30,16:45,Fast,,1,Y,1,Y,Clear,"First sample filtered night of collection , but repliate samples filtered the next day after realizing that samples break in freezer "
+Imbali,IMB_1C,Y,June_15,8:30,W_E,None,NA,Water visibly clear; Hyaena 20 minutes before sampling; elephant immediately after,4,19:05,NA,NA,,,NA,NA,NA,NA,,,,NA,,N,NA,Sample broke in freezer
+Hoyo Hoyo,HOY_1A,,June_15,9:32,NW_SE,None,NA,Water murkier than Imbali; turned over less by elephants; smaller trough; borehole; previously fed by grey water which is human wastewater naturally filtered through reed bed - does not think this is still happening as it is done in times of water restriction,4,19:05,June_17,9:00,,,Room,June_18,19:05,22:30,Fast,,1,Y,1,Y,Brown,"Sample thawed room temperature, then placed in fridge overnight"
+Hoyo Hoyo,HOY_1B,,June_15,9:35,NW_SE,None,NA,Water murkier than Imbali; turned over less by elephants; smaller trough; borehole; previously fed by grey water which is human wastewater naturally filtered through reed bed - does not think this is still happening as it is done in times of water restriction,4,NA,NA,NA,,,NA,NA,15:35,15:37,Fast,,1,Y,1,Y,Brown,"First sample filtered night of collection , but repliate samples filtered the next day after realizing that samples break in freezer "
+Hoyo Hoyo,HOY_1C,Y,June_15,9:37,NW_SE,None,NA,Water murkier than Imbali; turned over less by elephants; smaller trough; borehole; previously fed by grey water which is human wastewater naturally filtered through reed bed - does not think this is still happening as it is done in times of water restriction,4,19:05,NA,NA,,,NA,NA,NA,NA,,,,NA,,N,NA,Sample broke in freezer
+Nhlanguneli,NHL_1A,Y,June_15,12:05,N_S,N_S,W,,4,19:05,NA,NA,,,NA,NA,NA,NA,,,,NA,,N,NA,Sample broke in freezer
+Nhlanguneli,NHL_1B,,June_15,12:06,N_S,N_S,W,,4,NA,NA,NA,,,NA,June_15,19:24,20:06,Slow,,1,Y,1,Y,Brown,"First sample filtered night of collection , but repliate samples filtered the next day after realizing that samples break in freezer "
+Nhanguleni,NHL_1C,,June_15,12:07,N_S,N_S,W,C sample from scummy end,4,19:05,June_17,9:00,,,Room,June_18,19:05,22:30,Slow,,1,Y,1,Y,Brown,"Sample thawed room temperature, then placed in fridge overnight"
+Kwaggas Pan,KWA_1A,Y,June_15,14:29,E_W,N_S,N,Scum on SE side but not directly sampled,4,19:05,NA,NA,,,NA,NA,NA,NA,,,,NA,,N,NA,Sample broke in freezer
+Kwaggas Pan,KWA_1B,,June_15,14:33,E_W,N_S,N,Scum on SE side but not directly sampled,4,19:05,June_19,22:00,June_23,11:30,Fridge,June_23,11:59,,,,,,,,,Sample kept in a state of near freezing from June 16 to June 20 when put in fridge to thaw
+Kwaggas Pan,KWA_1C,,June_15,14:35,E_W,N_S,N,Scum on SE side but not directly sampled,4,19:05,June_16,5:30,June_24,12:00,Fridge,June_24,21:12,,,Polysulfone,3,Y,3,Y,Tan-green,Sample kept in a state of near freezing from June 16 to June 20 when put in fridge to thaw
+De Laporte,DLP_1A,,June_15,15:09,N_S,N_S,W,Scum at C - South end,4,19:05,June_17,9:00,June_18,,Room,June_18,19:05,22:30,Fast,,1,Y,1,Y,Clear,"Sample thawed room temperature, then placed in fridge overnight"
+De Laporte,DLP_1B,,June_15,15:10,N_S,N_S,W,Scum at C - South end,4,19:05,June_16,5:30,June_23,20:00,Fridge,June_23,20:30,20:55,Fast,Polysulfone,1,Y,1,Y,Clear,Sample kept in a state of near freezing from June 16 to June 20 when put in fridge to thaw - sample still had about 100mL of ice at the time of filtration. 
+De Laporte,DLP_1C,,June_15,15:11,N_S,N_S,W,Scum at C - South end,4,19:05,June_16,5:30,June_23,17:00,Fridge,June_23,16:14,,Fast,Polysulfone,1,Y,1,Y,Clear,Sample kept in a state of near freezing from June 16 to June 20 when put in fridge to thaw - sample still had about 100mL of ice at the time of filtration. 
+Orpen,ORP_1A,,June_16,11:01,N_S,NW_SE,W,"Scum at SE corner/end; algae visible, but sample clear; water is filled automatically from a borehole reservoir in Orpen",4,21:00,June_17,9:00,,,Room,June_18,19:05,22:30,Slow,,1,Y,1,Y,Clear,"Sample thawed room temperature, then placed in fridge overnight"
+Orpen,ORP_1B,,June_16,11:02,N_S,NW_SE,W,"Scum at SE corner/end; algae visible, but sample clear; water is filled automatically from a borehole reservoir in Orpen",4,NA,,,,,,June_16,,,,,,,,,,"First sample filtered night of collection , but repliate samples filtered the next day after realizing that samples break in freezer "
+Orpen,ORP_1C,,June_16,11:03,N_S,NW_SE,W,"Scum at SE corner/end; algae visible, but sample clear; water is filled automatically from a borehole reservoir in Orpen",4,21:00,June_17,9:00,,,Room,June_18,19:05,22:30,Slow,,1,Y,1,Y,Clear,"Sample thawed room temperature, then placed in fridge overnight"
+Satara West,SAT_1A,,June_16,13:05,NE_SW,NE_SW,W,Scum at SW corner,4,NA,June_16,5:30,,,Room,June_16,19:30,20:00,Very Fast,,,,,,Clear,"First sample filtered night of collection , but repliate samples filtered the next day after realizing that samples break in freezer "
+Satara West,SAT_1B,,June_16,13:06,NE_SW,NE_SW,W,Scum at SW corner,4,NA,June_16,5:30,,,Room,June_16,19:30,20:00,Very Fast,,,,,,Clear,"First sample filtered night of collection , but repliate samples filtered the next day after realizing that samples break in freezer "
+Satara West,SAT_1C,,June_16,13:07,NE_SW,NE_SW,W,Scum at SW corner,4,21:00,June_17,9:00,,,Room,June_18,19:05,22:30,Very Fast,,1,Y,1,Y,Clear,"Sample thawed room temperature, then placed in fridge overnight"
+Kwaggas Pan,KWA_2A,,June_16,15:44,E_W,NE_SW,W,Scum in SW,4,21:00,June_17,5:30,June_20,22:00,Fridge,June_21,16:09,18:00,Slow,Polysulfone,3,Y,3,Y,Tan-green,Sample remained with mainly ice for many days while thawing in fridge
+Kwaggas Pan,KWA_2B,,June_16,15:44,E_W,NE_SW,W,Scum in SW,4,21:00,June_17,5:30,June_20,22:00,Fridge,June_21,?,?,?,?,3,Y,3,Y,Tan-green,Sample remained with mainly ice for many days while thawing in fridge
+Kwaggas Pan,KWA_2C,,June_16,15:44,E_W,NE_SW,W,Scum in SW,4,21:00,June_19,22:00,June_24,12:00,Fridge,June_25,13:28,14:30,Very slow,Both,3,Y,3,Y,Tan-green,Replicate samples may have been contaminated with Witpens 2A samples (found some green dried bits in funnel after filtration.
+De Laporte,DLP_2A,,June_16,16:15,N_S,N_S,W,Scum at S end; water level at half from elephants,4,21:00,June_17,5:30,June_20,18:29,Fridge,June_20,18:29,19:38,Medium,Polysulfone,1,Y,1,Y,Clear,Small piece of ice still present in bottle at the onset of filtration
+De Laporte,DLP_2B,,June_16,16:16,N_S,N_S,W,Scum at S end; water level at half from elephants,4,21:00,June_17,5:30,June_21,,Fridge,June_21,12:04,13:15,Medium,Glass,1,,,,Clear,About 100mL of ice present in sample at start of filtration 
+De Laporte,DLP_2C,,June_16,16:17,N_S,N_S,W,Scum at S end; water level at half from elephants,4,21:00,June_17,5:30,June_20,17:10,Fridge,June_20,17:16,17:38,Fast,Glass,1,Y,1,Y,Clear,
+Kwaggas Pan,KWA_3A,,June_17,14:49,E_W,NW_SE,W,Scum in SE corner,4,20:10,June_19,22:00,June_21,23:00,Fridge,June_23,18:52,,Very slow,Polysulfone,3,Y,3,Y,Tan-green,Sample remained with mainly ice for many days while thawing in fridge
+Kwaggas Pan,KWA_3B,,June_17,14:49,E_W,NW_SE,W,Scum in SE corner,4,20:10,June_17,5:30,June_24,12:00,Fridge,June_25,14:45,15:45,Very slow,Both,3,Y,3,Y,Tan-green,Sample remained with mainly ice for many days while thawing in fridge
+De Laporte,DLP_3A,Y,June_17,15:52,N_S,SW_NE,W,Scum in NE corner,4,20:10,NA,NA,,,NA,NA,NA,NA,,,,NA,,,NA,Sample broke in freezer
+De Laporte,DLP_3B,,June_17,15:52,N_S,SW_NE,W,Scum in NE corner,4,20:10,June_19,23:30,June_21,10:30,Fridge,June_21,10:24,10:40,Fast,Glass,1,Y,1,Y,Clear,Small piece of ice still present in bottle at the onset of filtration
+De Laporte,DLP_3C,,June_17,15:52,N_S,SW_NE,W,Scum in NE corner,4,20:10,June_19,23:30,June_21,10:30,Fridge,June_21,11:05,,Fast,Glass,1,N,NA,N,Clear,"Actually just another 150mL filtration of DLP_3B in case we find replicates from other days are smiliar, then we have 300mL filtered for this site-time combination."
+Ngotso North,NGO_1A,,June_18,8:49,N_S,None,NA,,4,NA,NA,NA,NA,NA,NA,June_19,,,Very fast,,1,Y,1,Y,Clear,
+Ngotso North,NGO_1B,,June_18,8:49,N_S,None,NA,,4,NA,NA,NA,NA,NA,NA,June_19,21:04,21:08,Very fast,,1,Y,1,Y,Clear,
+Nyamahri,NYA_1A,,June_18,9:23,N_S,None,E,,4,23:00,June_20,11:00,June_22,17:05,Fridge,June_23,12:39,,Medium,Glass,1,Y,1,Y,Cearl,Poured out 400mL of sample before freezing.
+Nyamahri,NYA_1B,,June_18,9:23,N_S,None,E,,4,NA,NA,NA,NA,NA,NA,June_19,21:25,22:10,Slow,,1,Y,1,Y,Brown,5-6 daphnia in the 150mL sample
+Witpens,WIT_1A,,June_18,10:06,N_S,S_N,E,Full of algae (microcystis?) - bright green; scum at N end,4,NA,NA,NA,NA,NA,NA,June_19,9:30,16:30,Very slow,Polysulfone,1,Y,2,Y,Bright green,
+Witpens,WIT_1B,,June_18,10:10,N_S,S_N,E,Full of algae (microcystis?) - bright green; scum at N end,4,NA,NA,NA,NA,NA,NA,June_19,9:30,16:30,Very slow,Polysulfone,1,Y,2,Y,Bright green,Replicates split into two filters each with 75mL
+Kwaggas Pan,KWA_4A,,June_18,13:20,E_W,None,N,Scum on E/SE side,4,NA,NA,NA,NA,NA,NA,June_19,9:30,18:00,Very slow,,1,Y,3,Y,Tan-green,Replicates split into three filters of 50mL each (last one filtered the morning of June 20th)
+Kwaggas Pan,KWA_4B,,June_18,13:24,E_W,None,N,Scum on E/SE side,4,NA,NA,NA,NA,NA,NA,June_20,10:25,,Very slow,Polysulfone,3,Y,3,Y,Tan-green,
+De Laporte,DLP_4A,,June_18,13:50,N_S,S_N,W,Water half from elephants. Water looks clearer than in the past few days,4,NA,NA,NA,NA,NA,NA,June_20,11:40,11:48,Very fast,Polysulfone,1,Y,1,Y,Clear,
+De Laporte,DLP_4B,,June_18,13:56,N_S,S_N,W,Water half from elephants. Water looks clearer than in the past few days,4,NA,NA,NA,NA,NA,NA,June_20,12:19,12:50,Medium,Glass,1,Y,1,Y,Clear,
+Kwaggas Pan,KWA_5A,,June_19,13:30,E_W,None,N,No apparent scum; bits of grass floating likely from elephants eating,4,NA,NA,NA,NA,NA,NA,June_20,17:13,20:30,Very slow,Polysulfone,3,Y,3,Y,Tan-green,
+Kwaggas Pan,KWA_5B,,June_19,13:30,E_W,None,N,No apparent scum; bits of grass floating likely from elephants eating,4,NA,NA,NA,NA,NA,NA,June_21,10:18,12:30,Very slow,Polysulfone,3,Y,3,Y,Tan-green,
+De Laporte,DLP_5A,,June_19,14:20,N_S,None,W,Scum evenly dispersed; some fresh elephant dung floating in water,4,23:00,June_20,11:00,June_22,18:55,Fridge,June_23,12:05,12:17,Fast,Glass,1,Y,1,Y,Clear,
+De Laporte,DLP_5B,,June_19,14:20,N_S,None,W,Scum evenly dispersed; some fresh elephant dung floating in water,4,NA,NA,NA,NA,NA,NA,June_20,10:28,11:09,Medium,Glass,1,Y,1,Y,Clear,Appeared clear but filter came out Tan-green coloured
+Nwaswitshaka,NWA_1A,,June_19,15:23,N_S,S_N,NA,Plant growing at North end of trough; clear water,4,NA,NA,NA,NA,NA,NA,June_21,10:18,11:50,Slow,Polysulfone,2,Y,2,Y,Slightly green,"Accidentally left in the car overnight (night time temperature fairly cold, still below ambient when found next afternoon)"
+Nwaswitshaka,NWA_1B,,June_19,15:25,N_S,S_N,NA,Plant growing at North end of trough; clear water,4,NA,NA,NA,NA,NA,NA,June_20,17:20,19:30,Slow,Glass,1,Y,2,Y,Slightly green,"Accidentally left in the car overnight (night time temperature fairly cold, still below ambient when found next afternoon)"
+BLANK,BLANK_1,,June_20,19:45,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,19:45,19:45,Very fast,Polysulfone,1,Y,1,N,Clear,"Blank produced by filling DI water squeeze bottles used in lab with DI water, filling an unused autoclaved uv irradiated glass sampling bottle with 1L, then proceeding with usual routine of eliminase + DI water outside surface and filtering 150mL. "
+Imbali,IMB_2A,,June_22,7:52,W_E,None,NA,"Water looks clear, no visible wind",4,NA,NA,NA,NA,NA,NA,June_22,16:18,16:50,Fast,Polysulfone,1,Y,1,Y,Clear,
+Imbali,IMB_2B,,June_22,7:57,W_E,None,NA,"Water looks clear, no visible wind",4,NA,NA,NA,NA,NA,NA,June_22,15:55,16:45,Fast,Glass,1,Y,1,Y,Clear,
+Hoyo Hoyo,HOY_2A,,June_22,8:20,NW_SE,None,NA,Water looks dirty and grey but still clear; no wind,4,NA,NA,NA,NA,NA,NA,June_22,15:58,16:02,Very fast,Polysulfone,1,Y,1,Y,Grey-green,Filter came out dark brown
+Hoyo Hoyo,HOY_2B,,June_22,8:24,NW_SE,None,NA,Water looks dirty and grey but still clear; no wind,4,NA,NA,NA,NA,NA,NA,June_22,17:08,17:25,Very fast,Glass,1,Y,1,Y,Grey-green,Filter came out dark brown
+Nhlanguneli,NHL_2A,,June_22,9:30,N_S,None,W,No apparent wind at the moment - salive everywhere and scum at south end,4,NA,NA,NA,NA,NA,NA,June_22,16:55,17:17,Fast,Polysulfone,1,Y,1,Y,Clear,Filter came out cream yellow
+Nhlanguneli,NHL_2A_S,,June_22,9:30,N_S,None,W,No apparent wind at the moment - salive everywhere and scum at south end,4,NA,NA,NA,NA,NA,NA,June_22,,,,,1,N,NA,Y,,50mL only
+Nhlanguneli,NHL_2A_XS,,June_22,9:30,N_S,None,W,No apparent wind at the moment - salive everywhere and scum at south end,4,NA,NA,NA,NA,NA,NA,June_22,,,,,1,N,NA,Y,,15mL only
+Nhlanguneli,NHL_2B,,June_22,9:35,N_S,None,W,No apparent wind at the moment - salive everywhere and scum at south end,4,NA,NA,NA,NA,NA,NA,June_22,15:50,16:10,Fast,Polysulfone,1,Y,1,Y,Clear,Filter came out cream yellow
+Nhlanguneli,NHL_2B_S,,June_22,9:35,N_S,None,W,No apparent wind at the moment - salive everywhere and scum at south end,4,NA,NA,NA,NA,NA,NA,June_22,,,,,1,N,NA,Y,,50mL only
+Nhlanguneli,NHL_2B_XS,,June_22,9:35,N_S,None,W,No apparent wind at the moment - salive everywhere and scum at south end,4,NA,NA,NA,NA,NA,NA,June_22,,,,,1,N,NA,Y,,15mL only
+Ngotso North,NGO_2A,,June_24,8:23,N_S,N_S,W,Mild wind - scum at south end,5,NA,NA,NA,NA,NA,NA,June_24,16:50,16:52,Very fast,Glass,1,Y,1,Y,Clear,
+Ngotso North,NGO_2A_S,,June_24,8:23,N_S,N_S,W,Mild wind - scum at south end,5,NA,NA,NA,NA,NA,NA,June_24,,,,,1,N,NA,Y,Clear,50mL only
+Ngotso North,NGO_2A_XS,,June_24,8:23,N_S,N_S,W,Mild wind - scum at south end,5,NA,NA,NA,NA,NA,NA,June_24,,,,,1,N,NA,Y,Clear,15mL only
+Ngotso North,NGO_2B,,June_24,8:36,N_S,N_S,W,Mild wind - scum at south end,5,NA,NA,NA,NA,NA,NA,June_24,16:20,16:28,Very fast,Glass,1,Y,1,Y,Clear,Fitler came out grey yellow
+Ngotso North,NGO_2B_S,,June_24,8:36,N_S,N_S,W,Mild wind - scum at south end,5,NA,NA,NA,NA,NA,NA,June_24,,,,,1,N,NA,Y,Clear,50mL only
+Ngotso North,NGO_2B_XS,,June_24,8:36,N_S,N_S,W,Mild wind - scum at south end,5,NA,NA,NA,NA,NA,NA,June_24,,,,,1,N,NA,Y,Clear,15mL only
+Nyamahri,NYA_2A,,June_24,9:04,N_S,N_S,E,Very grey cloudy water; scum at south end; water near SE end overflowed concrete basin - animals may be drinking from there rather than actual pan,5,NA,NA,NA,NA,NA,NA,June_24,17:40,18:30,Medium,Polysulfone,1,Y,2,Y,Grey,Water poured normally
+Nyamahri,NYA_2A_S,,June_24,9:04,N_S,N_S,E,Very grey cloudy water; scum at south end; water near SE end overflowed concrete basin - animals may be drinking from there rather than actual pan,5,NA,NA,NA,NA,NA,NA,June_24,,,,,1,N,NA,Y,Grey,50mL only
+Nyamahri,NYA_2A_XS,,June_24,9:04,N_S,N_S,E,Very grey cloudy water; scum at south end; water near SE end overflowed concrete basin - animals may be drinking from there rather than actual pan,5,NA,NA,NA,NA,NA,NA,June_24,,,,,1,N,NA,Y,Grey,15mL only - even with this small volume the filter came out clearly yellow 
+Nyamahri,NYA_2B,,June_24,9:04,N_S,N_S,E,Very grey cloudy water; scum at south end; water near SE end overflowed concrete basin - animals may be drinking from there rather than actual pan,5,NA,NA,NA,NA,NA,NA,June_24,21:13,21:30,Fast,Polysulfone,2,Y,2,Y,Grey,Water was difficult to pour out of media bottle - flowed as if it was more viscous and stuck to the sides of the bottle- dribbled rather than having a stream jutting from bottle
+Nyamahri,NYA_2B_S,,June_24,9:04,N_S,N_S,E,Very grey cloudy water; scum at south end; water near SE end overflowed concrete basin - animals may be drinking from there rather than actual pan,5,NA,NA,NA,NA,NA,NA,June_24,21:13,,,,1,N,NA,Y,Grey,50mL only
+Nyamahri,NYA_2B_XS,,June_24,9:04,N_S,N_S,E,Very grey cloudy water; scum at south end; water near SE end overflowed concrete basin - animals may be drinking from there rather than actual pan,5,NA,NA,NA,NA,NA,NA,June_24,21:13,,,,1,N,NA,Y,Grey,15mL only - even with this small volume the filter came out clearly yellow 
+Witpens,WIT_2A,,June_24,9:50,N_S,N_S,E,,5,NA,NA,NA,NA,NA,NA,June_24,21:14,21:49,Slow,Polysulfone,2,Y,2,Y,Light green,"Spoor: wildebeest, impala? Hyena? Zebra? Rhino zebra and wildebeest drinking directly before"
+Witpens,WIT_2B,,June_24,9:51,N_S,N_S,E,,5,NA,NA,NA,NA,NA,NA,June_24,16:13,17:45,Slow,Polysulfone,1,Y,2,Y,Light green,This sample was a paler green than last weeks samples from Witpens and also lighter than WIT_2A
+Girivana,GIR_1A,,June_24,11:26,N_S,N_S,W,Water grey and cloudy; scum at south end,5,NA,NA,NA,NA,NA,NA,June_24,16:16,17:03,Medium,Polysulfone,2,Y,2,Y,Brown,Filter came out dark chocolate brown
+Girivana,GIR_1B,,June_24,11:32,N_S,N_S,W,Water grey and cloudy; scum at south end,5,NA,NA,NA,NA,NA,NA,June_24,17:26,18:15,Medium,Polysulfone,2,Y,2,Y,Brown,Filter came out dark chocolate brown
+Nwaswitshaka,NWA_2A,,June_26,8:39,N_S,None,NA,No apparent wind; light debris or dust scattered throughout; no scum; vultures present at North end ,,NA,NA,NA,NA,NA,NA,June_26,12:58,13:44,Slow,Polysulfone,2,Y,2,Y,Clear cloudy,
+Nwaswitshaka,NWA_2A_S,,June_26,8:39,N_S,None,NA,No apparent wind; light debris or dust scattered throughout; no scum; vultures present at North end ,,NA,NA,NA,NA,NA,NA,June_26,,,,,1,N,NA,Y,Clear cloudy,50mL only
+Nwaswitshaka,NWA_2A_XS,,June_26,8:39,N_S,None,NA,No apparent wind; light debris or dust scattered throughout; no scum; vultures present at North end ,,NA,NA,NA,NA,NA,NA,June_26,,,,,1,N,NA,Y,Clear cloudy,15mL only
+Nwaswitshaka,NWA_2B,,June_26,8:41,N_S,None,NA,No apparent wind; light debris or dust scattered throughout; no scum; vultures present at North end ,,NA,NA,NA,NA,NA,NA,June_26,15:05,16:00,Slow,Polysulfone,2,Y,2,Y,Clear cloudy,Two live mosquito larvae in the 1L sample
+Nwaswitshaka,NWA_2B_S,,June_26,8:41,N_S,None,NA,No apparent wind; light debris or dust scattered throughout; no scum; vultures present at North end ,,NA,NA,NA,NA,NA,NA,June_26,,,,,1,N,NA,Y,Clear cloudy,50mL only
+Nwaswitshaka,NWA_2B_XS,,June_26,8:41,N_S,None,NA,No apparent wind; light debris or dust scattered throughout; no scum; vultures present at North end ,,NA,NA,NA,NA,NA,NA,June_26,,,,,1,N,NA,Y,Clear cloudy,15mL only
+Kwaggas Pan,KWA_6A,,June_26,9:10,E_W,SE_NW,N,Some debris/scum in NW corner,,NA,NA,NA,NA,NA,NA,June_26,12:54,14:10,Slow,Polysulfone,2,Y,2,Y,Cloudy pale green,
+Kwaggas Pan,KWA_6A_S,,June_26,9:10,E_W,SE_NW,N,Some debris/scum in NW corner,,,,,,,,,,,,,1,N,NA,Y,Cloudy pale green,50mL only
+Kwaggas Pan,KWA_6A_XS,,June_26,9:10,E_W,SE_NW,N,Some debris/scum in NW corner,,,,,,,,,,,,,1,N,NA,Y,Cloudy pale green,15mL only
+Kwaggas Pan,KWA_6B,,June_26,9:12,E_W,SE_NW,N,Some debris/scum in NW corner,,NA,NA,NA,NA,NA,NA,June_26,14:58,16:00,Slow,Polysulfone,3,Y,3,Y,Cloudy pale green,
+Kwaggas Pan,KWA_6B_S,,June_26,9:12,E_W,SE_NW,N,Some debris/scum in NW corner,,,,,,,,,,,,,1,N,NA,Y,Cloudy pale green,50mL only
+Kwaggas Pan,KWA_6B_XS,,June_26,9:12,E_W,SE_NW,N,Some debris/scum in NW corner,,,,,,,,,,,,,1,N,NA,Y,Cloudy pale green,15mL only
+De Laporte,DLP_6A,,June_26,9:55,N_S,S_N,E,NOTE - pan was almost completely empty at 7:30 - we let it fill up a small bit to allow water collection but this may be more representative of water from reservoir that now came into contact with sediment than water in direct contact with animals,4,NA,NA,NA,NA,NA,NA,June_26,13:02,13:15,Very fast,Glass,1,Y,1,Y,Clear with black flecks,
+De Laporte,DLP_6B,,June_26,9:56,N_S,S_N,E,NOTE - pan was almost completely empty at 7:30 - we let it fill up a small bit to allow water collection but this may be more representative of water from reservoir that now came into contact with sediment than water in direct contact with animals,4,NA,NA,NA,NA,NA,NA,June_26,13:53,16:10,Very fast,Glass,1,Y,1,Y,Clear with black flecks,
+BLANK,BLANK_2,,June_29,20:38,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,20:45,20:45,Very fast,Polysulfone,1,Y,1,N,Clear,"Blank produced by filling DI water squeeze bottles used in lab with DI water, filling an unused autoclaved uv irradiated glass sampling bottle with 1L, then proceeding with usual routine of eliminase + DI water outside surface and filtering 150mL. Put in with Week 2 KWA DLP NWA samples"
+Imbali,IMB_3A,,June_29,8:22,W_E,None,NA,Looks like cam was displaced by elephants rubbing tree; missing whole week of photos,,NA,NA,NA,NA,NA,NA,June_29,14:54,15:10,Fast,Polysulfone,1,Y,1,Y,Clear,
+Imbali,IMB_3B,,June_29,8:25,W_E,None,NA,Looks like cam was displaced by elephants rubbing tree; missing whole week of photos,,NA,NA,NA,NA,NA,NA,June_29,16:07,16:50,Slow,Glass,1,Y,1,Y,Clear,
+Hoyo Hoyo,HOY_3A,,June_29,8:52,NW_SE,None,NA,,,NA,NA,NA,NA,NA,NA,June_29,14:52,14:54,Very fast,Polysulfone,1,Y,1,Y,Clear with grey tinge,filter came out dark tan
+Hoyo Hoyo,HOY_3A_S,,June_29,8:52,NW_SE,None,NA,,,NA,NA,NA,NA,NA,NA,June_29,,,,,1,N,NA,Y,Clear with grey tinge,
+Hoyo Hoyo,HOY_3A_XS,,June_29,8:52,NW_SE,None,NA,,,NA,NA,NA,NA,NA,NA,June_29,,,,,1,N,NA,Y,Clear with grey tinge,
+Hoyo Hoyo,HOY_3B,,June_29,8:57,NW_SE,None,NA,,,NA,NA,NA,NA,NA,NA,June_29,15:20,15:24,Very fast,Polysulfone,1,Y,1,Y,Clear with grey tinge,
+Hoyo Hoyo,HOY_3B_S,,June_29,8:57,NW_SE,None,NA,,,NA,NA,NA,NA,NA,NA,June_29,,,,,1,N,NA,Y,Clear with grey tinge,
+Hoyo Hoyo,HOY_3B_XS,,June_29,8:57,NW_SE,None,NA,,,NA,NA,NA,NA,NA,NA,June_29,,,,,1,N,NA,Y,Clear with grey tinge,
+Nhlanguleni,NHL_3A,,June_29,12:12,N_S,N_S,W,Looks like cam was knocked and batteries came loose on C13 - still had 3 bars when adjusted; water very scummy and dispersed everywhere; warthog zebra giraffe and impala drinking moments before sampling,,NA,NA,NA,NA,NA,NA,June_29,14:51,15:16,Fast,Glass,1,Y,1,Y,Cloudy grey,
+Nhlanguleni,NHL_3B,,June_29,12:15,N_S,N_S,W,Looks like cam was knocked and batteries came loose on C13 - still had 3 bars when adjusted; water very scummy and dispersed everywhere; warthog zebra giraffe and impala drinking moments before sampling,,NA,NA,NA,NA,NA,NA,June_29,15:50,16:14,Fast,Polysulfone,1,Y,1,Y,Cloudy grey,
+Nwaswitshaka,NWA_3A,,June_29,13:50,N_S,None,W,,,NA,NA,NA,NA,NA,NA,June_29,20:28,21:08,Medium,Polysulfone,2,Y,2,Y,Clear with green tinge,
+Nwaswitshaka,NWA_3B,,June_29,13:53,N_S,None,W,,,NA,NA,NA,NA,NA,NA,June_29,20:29,21:20,Medium,Polysulfone,2,Y,2,Y,Clear with green tinge,
+Nwaswitshaka,NWA_4A,,June_30,10:31,N_S,S_N,W,Debris at north end,,NA,NA,NA,NA,NA,NA,June_30,16:27,17:12,Medium,Polysulfone,2,Y,2,Y,,
+Nwaswitshaka,NWA_4B,,June_30,10:34,N_S,S_N,W,Debris at north end,,NA,NA,NA,NA,NA,NA,June_30,16:27,17:12,Medium,Polysulfone,2,Y,2,Y,,
+Ngotso North,NGO_3A,,July_1,8:25,N_S,None,W,Scum at north end,,NA,NA,NA,NA,NA,NA,July_1,13:58,14:00,Very fast,Glass,1,Y,1,Y,Clear,Filter came out tan yellow
+Ngotso North,NGO_3A_S,,July_1,8:25,N_S,None,W,Scum at north end,,NA,NA,NA,NA,NA,NA,July_1,,,,,1,N,NA,Y,Clear,50mL only
+Ngotso North,NGO_3A_XS,,July_1,8:25,N_S,None,W,Scum at north end,,NA,NA,NA,NA,NA,NA,July_1,,,,,1,N,NA,Y,Clear,15mL only
+Ngotso North,NGO_3B,,July_1,8:30,N_S,None,W,Scum at north end,,NA,NA,NA,NA,NA,NA,July_1,14:43,14:45,Very fast,Glass,1,Y,1,Y,Clear,Filter came out tan yellow
+Ngotso North,NGO_3B_S,,July_1,8:30,N_S,None,W,Scum at north end,,NA,NA,NA,NA,NA,NA,July_1,,,,,1,N,NA,Y,Clear,50mL only
+Ngotso North,NGO_3B_XS,,July_1,8:30,N_S,None,W,Scum at north end,,NA,NA,NA,NA,NA,NA,July_1,,,,,1,N,NA,Y,Clear,15mL only
+Nyamahri,NYA_3A,,July_1,8:48,N_S,None,E,,,NA,NA,NA,NA,NA,NA,July_1,15:20,,Fast,Polysulfone,2,Y,2,Y,Cloudy grey,
+Nyamahri,NYA_3A_S,,July_1,8:48,N_S,None,E,,,NA,NA,NA,NA,NA,NA,July_1,,,,,1,N,NA,Y,,50mL only
+Nyamahri,NYA_3A_XS,,July_1,8:48,N_S,None,E,,,NA,NA,NA,NA,NA,NA,July_1,,,,,1,N,NA,Y,,15mL only
+Nyamahri,NYA_3B,,July_1,8:51,N_S,None,E,,,NA,NA,NA,NA,NA,NA,July_1,13:57,14:15,Fast,Polysulfone,2,Y,2,Y,Cloudy grey,
+Nyamahri,NYA_3B_S,,July_1,8:51,N_S,None,E,,,NA,NA,NA,NA,NA,NA,July_1,,,,,1,N,NA,Y,,50mL only
+Nyamahri,NYA_3B_XS,,July_1,8:51,N_S,None,E,,,NA,NA,NA,NA,NA,NA,July_1,,,,,1,N,NA,Y,,15mL only
+Witpens,WIT_3A,,July_1,9:28,N_S,N_S,E,Scum at south end; smells worse than usual today,,NA,NA,NA,NA,NA,NA,July_1,13:55,14:17,Medium,Polysulfone,2,Y,2,Y,Light green,
+Witpens,WIT_3B,,July_1,9:31,N_S,N_S,E,Scum at south end; smells worse than usual today,,NA,NA,NA,NA,NA,NA,July_1,15:19,,Medium,Polysulfone,2,Y,2,Y,Light green,
+Girivana,GIR_2A,,July_1,11:05,N_S,N_S,W,"Water level half; camera was broken - Martin the guard found human spoor and thinks it was broken on purpose - camera was not reset. Spoor: impala zebra, warthog",,NA,NA,NA,NA,NA,NA,July_1,19:06,19:25,Fast,Polysulfone,2,Y,2,Y,Cloudy grey-brown,
+Girivana,GIR_2B,,July_1,11:10,N_S,N_S,W,"Water level half; camera was broken - Martin the guard found human spoor and thinks it was broken on purpose - camera was not reset. Spoor: impala zebra, warthog",,NA,NA,NA,NA,NA,NA,July_1,19:54,,,,2,Y,2,Y,Cloudy grey-brown,
+Nwaswitshaka,NWA_5A,,July_1,13:43,N_S,N_S,W,Scum at south end,,NA,NA,NA,NA,NA,NA,July_1,19:07,20:12,,,2,Y,2,Y,Clear with green tinge,
+Nwaswitshaka,NWA_5B,,July_1,13:50,N_S,N_S,W,Scum at south end,,NA,NA,NA,NA,NA,NA,July_1,19:08,20:12,,,2,Y,2,Y,Clear with green tinge,
+Nwaswitshaka,NWA_6A,,July_2,10:38,N_S,S_N,W,Scum at North end; macrophyte seems to be growing,,NA,NA,NA,NA,NA,NA,July_2,11:49,12:25,Medium,Polysulfone,2,Y,2,Y,Clear with green tinge,Live macroinverts in the 1L sample including mosquitoe larvae
+Nwaswitshaka,NWA_6B,,July_2,10:41,N_S,S_N,W,Scum at North end; macrophyte seems to be growing,,NA,NA,NA,NA,NA,NA,July_2,11:52,12:30,Medium,Polysulfone,2,Y,2,Y,Clear with green tinge,Live macroinverts in the 1L sample
+De Laporte,DLP_7A,,July_3,8:04,N_S,None,W,Water below half full - some extra sediment in collection bottles - giraffe at hole directly before sampling did not drink,,NA,NA,NA,NA,NA,NA,July_3,10:48,11:20,Medium,Glass,1,Y,1,Y,Clear with 50mL of sediment or so,Filters had plant debris on them
+De Laporte,DLP_7A_S,,July_3,8:04,N_S,None,W,Water below half full - some extra sediment in collection bottles - giraffe at hole directly before sampling did not drink,,NA,NA,NA,NA,NA,NA,July_3,,,,,1,N,NA,,,
+De Laporte,DLP_7A_XS,,July_3,8:04,N_S,None,W,Water below half full - some extra sediment in collection bottles - giraffe at hole directly before sampling did not drink,,NA,NA,NA,NA,NA,NA,July_3,,,,,1,N,NA,,,
+De Laporte,DLP_7B,,July_3,8:04,N_S,None,W,Water below half full - some extra sediment in collection bottles - giraffe at hole directly before sampling did not drink,,NA,NA,NA,NA,NA,NA,July_3,12:58,12:25,,Glass,1,Y,1,Y,,
+De Laporte,DLP_7B_S,,July_3,8:04,N_S,None,W,Water below half full - some extra sediment in collection bottles - giraffe at hole directly before sampling did not drink,,NA,NA,NA,NA,NA,NA,July_3,,,,,1,N,NA,,,
+De Laporte,DLP_7B_XS,,July_3,8:04,N_S,None,W,Water below half full - some extra sediment in collection bottles - giraffe at hole directly before sampling did not drink,,NA,NA,NA,NA,NA,NA,July_3,,,,,1,N,NA,,,
+Nwaswitshaka,NWA_7A,,July_3,9:46,N_S,None,W,Debris evenly dispersed,,NA,NA,NA,NA,NA,NA,July_3,10:44,11:40,Medium,Polysulfone,2,Y,2,Y,,
+Nwaswitshaka,NWA_7A_S,,July_3,9:46,N_S,None,W,Debris evenly dispersed,,NA,NA,NA,NA,NA,NA,July_3,,,,,1,N,NA,,,
+Nwaswitshaka,NWA_7A_XS,,July_3,9:46,N_S,None,W,Debris evenly dispersed,,NA,NA,NA,NA,NA,NA,July_3,,,,,1,N,NA,,,
+Nwaswitshaka,NWA_7B,,July_3,9:50,N_S,None,W,Debris evenly dispersed,,NA,NA,NA,NA,NA,NA,July_3,10:43,11:40,Medium,Polysulfone,2,Y,2,Y,,
+Nwaswitshaka,NWA_7B_S,,July_3,9:50,N_S,None,W,Debris evenly dispersed,,NA,NA,NA,NA,NA,NA,July_3,,,,,1,N,NA,,,
+Nwaswitshaka,NWA_7B_XS,,July_3,9:50,N_S,None,W,Debris evenly dispersed,,NA,NA,NA,NA,NA,NA,July_3,,,,,1,N,NA,,,
+BLANK,BLANK_3,,July_3,14:52,,,,,,,,,,,,,14:52,14:52,Very fast,Polysulfone,1,Y,1,N,,
+Imbali,IMB_4A,,July_6,8:09,W_E,None,NA,,,NA,NA,NA,NA,NA,NA,July_6,14:36,14:43,Very fast,Polysulfone,1,Y,1,Y,Clear,
+Imbali,IMB_4B,,July_6,8:11,W_E,None,NA,,,NA,NA,NA,NA,NA,NA,July_6,15:10,15:17,Very fast,Polysulfone,1,Y,1,Y,Clear,
+Hoyo Hoyo,HOY_4A,,July_6,8:50,NW_SE,None,NA,,,NA,NA,NA,NA,NA,NA,July_6,14:38,14:43,Very fast,Glass,1,Y,1,Y,Clear with brown tinge,
+Hoyo Hoyo,HOY_4B,,July_6,8:53,NW_SE,None,NA,,,NA,NA,NA,NA,NA,NA,July_6,15:17,15:29,Very fast,Glass,1,Y,1,Y,Clear with brown tinge,
+Nhlanguleni,NHL_4A,,July_6,12:09,N_S,N_S,W,,,NA,NA,NA,NA,NA,NA,July_6,14:34,14:43,Very fast,Polysulfone,1,Y,1,Y,Clear slightly cloudy,
+Nhlanguleni,NHL_4B,,July_6,12:13,N_S,N_S,W,,,NA,NA,NA,NA,NA,NA,July_6,15:07,15:17,Very fast,Polysulfone,1,Y,1,Y,Clear slightly cloudy,
+Orpen,ORP_2A,,July_6,10:18,N_S,None,W,,,NA,NA,NA,NA,NA,NA,July_6,19:19,19:33,Fast,Polysulfone,2,Y,2,Y,Clear,Filter came out tan yellow
+Orpen,ORP_2A_S,,July_6,10:18,N_S,None,W,,,NA,NA,NA,NA,NA,NA,July_6,,,,,1,N,NA,Y,,50mL only
+Orpen,ORP_2A_XS,,July_6,10:18,N_S,None,W,,,NA,NA,NA,NA,NA,NA,July_6,,,,,1,N,NA,Y,,15mL only
+Orpen,ORP_2B,,July_6,10:22,N_S,None,W,,,NA,NA,NA,NA,NA,NA,July_6,19:21,19:34,Fast,Polysulfone,2,Y,2,Y,Clear,Filter came out tan yellow
+Orpen,ORP_2B_S,,July_6,10:22,N_S,None,W,,,NA,NA,NA,NA,NA,NA,July_6,,,,,1,N,NA,Y,,50mL only
+Orpen,ORP_2B_XS,,July_6,10:22,N_S,None,W,,,NA,NA,NA,NA,NA,NA,July_6,,,,,1,N,NA,Y,,15mL only
+Orpen,ORP_2C,,July_6,10:26,N_S,None,W,,,NA,NA,NA,NA,NA,NA,July_6,19:22,19:35,Fast,Polysulfone,2,Y,2,Y,Clear,Filter came out tan yellow
+Orpen,ORP_2C_S,,July_6,10:26,N_S,None,W,,,NA,NA,NA,NA,NA,NA,July_6,,,,,1,N,NA,Y,,50mL only
+Orpen,ORP_2C_XS,,July_6,10:26,N_S,None,W,,,NA,NA,NA,NA,NA,NA,July_6,,,,,1,N,NA,Y,,15mL only
+Ngotso North,NGO_4A,,July_8,8:29,,N_S,,Scum at S end but mild wind,,,,,,,,,16:05,16:07,Very fast,Glass,1,Y,1,Y,Clear,Filter came out brown
+Ngotso North,NGO_4B,,July_8,8:32,,N_S,,Scum at S end but mild wind,,,,,,,,,16:35,16:38,Very fasr,Glass,1,Y,1,Y,Clear,Filter came out brown
+Nyamahri,NYA_4A,,July_8,8:53,,N_S,,Scum at south end,,,,,,,,,16:03,16:30,Fast,Polysulfone,1,Y,2,Y,Cloudy grey,
+Nyamahri,NYA_4A_S,,July_8,8:53,,N_S,,Scum at south end,,,,,,,,,,,,,1,N,NA,Y,Cloudy grey,50mL only
+Nyamahri,NYA_4A_XS,,July_8,8:53,,,,Scum at south end,,,,,,,,,,,,,1,N,NA,Y,Cloudy grey,15mL only
+Nyamahri,NYA_4B,,July_8,8:55,,,,Scum at south end,,,,,,,,,17:08,17:20,Fast,Polysulfone,1,Y,1,Y,Cloudy grey,
+Nyamahri,NYA_4B_S,,July_8,8:55,,,,Scum at south end,,,,,,,,,,,,,1,N,NA,Y,Cloudy grey,50mL only
+Nyamahri,NYA_4B_XS,,July_8,8:55,,,,Scum at south end,,,,,,,,,,,,,1,N,NA,Y,Cloudy grey,15mL only
+Witpens,WIT_4A,,July_8,9:38,,,,,,,,,,,,,16:00,16:58,Slow,,2,Y,2,Y,Pale green,
+Witpens,WIT_4B,,July_8,9:42,,,,,,,,,,,,,17:10,17:58,Slow,,2,Y,2,Y,Pale green,
+Satara West,SAT_2A,,July_8,10:09,,,,No visible scum - water level slightly low,,,,,,,,,20:36,21:25,Slow,Glass,1,Y,1,Y,Clear,Filter came out brown
+Satara West,SAT_2A_S,,July_8,10:09,,,,No visible scum - water level slightly low,,,,,,,,,,,,,1,N,NA,Y,Clear,50mL only
+Satara West,SAT_2A_XS,,July_8,10:09,,,,No visible scum - water level slightly low,,,,,,,,,,,,,1,N,NA,Y,Clear,15mL only
+Satara West,SAT_2B,,July_8,10:11,,,,No visible scum - water level slightly low,,,,,,,,,21:26,21:34,Fast,Polysulfone,1,Y,1,Y,Clear,Filter came out brown
+Satara West,SAT_2B_S,,July_8,10:11,,,,No visible scum - water level slightly low,,,,,,,,,,,,,1,N,NA,Y,Clear,50mL only
+Satara West,SAT_2B_XS,,July_8,10:11,,,,No visible scum - water level slightly low,,,,,,,,,,,,,1,N,NA,Y,Clear,15mL only
+Satara West,SAT_2C,,July_8,10:15,,,,No visible scum - water level slightly low,,,,,,,,,21:24,22:00,Medium,Polysulfone,1,Y,,Y,Clear,Filter came out brown
+Satara West,SAT_2C_S,,July_8,10:15,,,,No visible scum - water level slightly low,,,,,,,,,,,,,1,N,NA,Y,Clear,50mL only
+Satara West,SAT_2C_XS,,July_8,10:15,,,,No visible scum - water level slightly low,,,,,,,,,,,,,1,N,NA,Y,Clear,15mL only
+Girivana,GIR_3A,,July_8,11:11,,,,,,,,,,,,,20:35,21:00,Medium,Polysulfone,2,Y,2,Y,Cloudy grey-brown,
+Girivana,GIR_3B,,July_8,11:15,,,,,,,,,,,,,20:35,21:00,Medium,Polysulfone,2,Y,2,Y,Cloudy grey-brown,
+De Laporte,DLP_8A,,July_10,7:48,,,,Water level low - scum and bubbles/saliva? Dispersed throughout,,,,,,,,,10:47,11:20,Medium,Glass,1,Y,1,Y,Clear,Filter came out brown
+De Laporte,DLP_8A_S,,July_10,7:48,,,,Water level low - scum and bubbles/saliva? Dispersed throughout,,,,,,,,,,,,,1,N,NA,Y,Clear,50mL only
+De Laporte,DLP_8A_XS,,July_10,7:48,,,,Water level low - scum and bubbles/saliva? Dispersed throughout,,,,,,,,,,,,,1,N,NA,Y,Clear,15mL only
+De Laporte,DLP_8B,,July_10,7:52,,,,Water level low - scum and bubbles/saliva? Dispersed throughout,,,,,,,,,12:21,,,,,,,,,
+De Laporte,DLP_8B_S,,July_10,7:52,,,,Water level low - scum and bubbles/saliva? Dispersed throughout,,,,,,,,,,,,,,,,,,
+De Laporte,DLP_8B_XS,,July_10,7:52,,,,Water level low - scum and bubbles/saliva? Dispersed throughout,,,,,,,,,,,,,,,,,,
+Kwaggas Pan,KWA_7A,,July_10,8:06,,,E,Pan full again. No wind. Scum is all over,,,,,,,,,10:43,11:20,Medium,Polysulfone,2,Y,2,Y,Pale green cloudy,Faster than previous times - maybe since it was drained by buffalo the previous week
+Kwaggas Pan,KWA_7B,,July_10,8:09,,,E,Pan full again. No wind. Scum is all over,,,,,,,,,10:44,11:20,Medium,Polysulfone,2,Y,2,Y,Pale green cloudy,Faster than previous times - maybe since it was drained by buffalo the previous week
+Nwaswitshaka,NWA_8A,,July_10,9:09,,N_S,,Mild wind. Scum at North end,,,,,,,,,11:59,,,Polysulfone,,,,,,
+Nwaswitshaka,NWA_8B,,July_10,9:11,,N_S,,Mild wind. Scum at North end,,,,,,,,,11:59,,,Polysulfone,,,,,,

@@ -1,0 +1,13 @@
+NEWID,ID,NAME,TYPE,ESTAB,SECTION,PURPOSE,CURRENT,FUTURE,COLOUR,SCHEDULE,OTHER,X_COORD,Y_COORD,SYMBOL1,Closure_da
+51,68,De Laporte,Borehole,Named c1975,SKZ,T,Open,To close,Red,SA,,31.56910,-25.05813,BoRe,N/A
+132,180,Kwaggas Pan,Borehole,1976,SKZ,T,Open,Remain open,Blue,,,31.55894,-25.14479,BoBl,N/A
+336,468,N'waswitshaka,"Dam, earthen",,SKZ,T,Open,To close,Red,SA,,31.51386,-25.03729,DaRe,N/A
+289,397,Nhlanguleni,Borehole,c1956,TSH,T,Open,To close,Orange,SA,/TS,31.65580,-24.70880,BoOr,N/A
+103,139,Hoyo Hoyo Camp,Borehole,,KFI,C & D,Open,Remain open,Blue,,,31.60018,-24.59937,BoBl,N/A
+105,141,Imbali Camp No1,Borehole,,KFI,C & D,Open,Remain open,Blue,,,31.63038,-24.59447,BoBl,N/A
+280,384,Ngotso North,Pipeline trough,c1986,HOU,T,Open,To close,Red,LA,,31.70740,-24.12987,PiRe,N/A
+348,484,Nyamarhi,Pipeline trough,c1982,HOU,T,Open,To close,Red,LA,,31.71940,-24.16780,PiRe,N/A
+77,100,Girivana No2 (Windpomp),Borehole,1950,SAT,T,Closed,Remain closed,Green,,,31.69020,-24.35800,BoGr,Unknown
+512,702,Witpens,Pipeline trough,c1971,SAT,T,Open,Remain open,Blue,,,31.75098,-24.32793,PiBl,N/A
+410,563,Satara Restcamp East,Borehole,,SAT,D,Open,Remain open,Blue,,,31.77440,-24.38910,BoBl,N/A
+358,498,Orpen No1,Borehole,c1954,KFI,D,Open,Remain open,Blue,,,31.39300,-24.47140,BoBl,N/A

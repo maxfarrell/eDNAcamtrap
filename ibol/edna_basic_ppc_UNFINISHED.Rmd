@@ -1,0 +1,356 @@
+---
+title: "eDNA & Camera Traps - Basic model"
+author: "M.J. Farrell"
+date: "`r date()`"
+output:
+  pdf_document: default
+---
+<!-- knit with Rscript -e "rmarkdown::render('output_file.Rmd')" -->
+
+Date:
+```{r date, echo=F, message=F, warning=F}
+date()
+```
+Data File:
+```{r data file, echo=F, message=F, warning=F}
+print("edna_basic_2k.rds")
+```
+
+```{r loading packages, echo=F, message=F, warning=F}
+rm(list=ls())
+
+library(rstan)
+library(ggplot2)
+library(bayesplot)
+library(rmarkdown)
+library(knitr)
+```
+
+```{r loading data, echo=F, message=F, warning=F}
+# Raw Data
+
+# reading in data
+data <- read.csv("../../Final/Clean Data/Virulence_merged_data_june19_2017.csv")
+names(data) <- tolower(names(data))
+
+# Creating Genus Covariate 
+data$genus <- as.factor(sub("(.*?)_.*", "\\1", data$parasite))
+
+# Normalizing continuous predictors to mean = 0, sd = 0.5
+scale_half <- function(x){
+	return( (x-mean(x)) * 0.5/sd(x))
+}
+data$sr <- scale_half(log(data$sr))
+data$focalpd <- scale_half(data$focalpd)
+data$gdp <- scale_half(log(data$gdp_pcap))
+data$latitude <- scale_half(data$latitude)
+data$cases_trans <- scale_half(log(data$cases))
+
+stan.data <- with(data, list(N=nrow(data),
+	P=length(unique(parasite)), 
+	para=as.integer(parasite),
+	FocalPD=focalpd, 
+	SR=unique(cbind(sr,parasite))[,1],
+	vectored=unique(cbind(vector, parasite))[,1], 
+	repro=unique(cbind(reproduction, parasite))[,1], 
+	enviroRest=unique(cbind(envirorestingstage, parasite))[,1],
+	G=length(unique(genus)), 
+	genus=as.integer(unique(cbind(genus,parasite))[,1]), 
+	T=length(unique(paratype)), 
+	type=as.integer(unique(cbind(paratype,parasite))[,1]), 
+	H=length(unique(host)), 
+	host=as.integer(host),
+	O=length(unique(hostorder)), 
+	order=as.integer(unique(cbind(hostorder,host))[,1]),
+	C=length(unique(country)), 
+	country=as.integer(country),
+	latitude=unique(cbind(latitude,country))[,1], 
+	gdp=unique(cbind(gdp,country))[,1],
+	Y=length(unique(year)),
+	year=as.integer(as.factor(year)),
+	deaths=deaths,cases=cases, 
+	cases_trans=cases_trans))
+
+fit <- readRDS("Farrell_Davies_model4_50k_thin10.rds")
+
+# Extracting posterior
+posterior <- as.array(fit)
+
+# Extracting deaths_pred
+deaths_pred <- as.matrix(fit, pars = "deaths_pred")
+y <- stan.data$deaths
+y_rep <- deaths_pred
+
+```
+&nbsp;
+&nbsp;
+
+*Model fits*
+
+```{r fit_table, echo=F, results="asis", message=F, warning=F}
+
+# params <- c(names(fit)[grep("beta", names(fit))],
+# 			names(fit)[grep("sigma", names(fit))],"lp__")
+
+params <- c(names(fit)[grep("beta", names(fit))],
+			names(fit)[grep("sigma", names(fit))])
+
+outcome <- summary(fit, pars=params)
+
+to_print <- outcome$summary[,c("mean","se_mean","sd","2.5%","97.5%","n_eff","Rhat")]
+
+kable(to_print, digits=2)
+
+```
+\newpage
+
+*Convergence Diagnostics*
+
+```{r convergence_plots, echo=F, results="asis", message=F, warning=F}
+
+# traceplot(fit, pars=params)
+# color_scheme_view(c("blue", "gray", "green", "pink", "purple",
+# 	"red","teal","yellow"))
+# color_scheme_set("mix-blue-red")
+# color_scheme_view()
+color_scheme_set("blue")
+
+mcmc_trace(posterior, pars = params, 
+           facet_args = list(ncol = 1, strip.position = "left"))
+
+pairs(fit, pars=params)
+
+```
+\newpage
+
+*Parameter Estimates*
+
+```{r parameter_plots, echo=F, results="asis", message=F, warning=F}
+
+# mcmc_intervals(posterior, 
+# 				pars = c(names(fit)[grep("beta", names(fit))],
+# 						 names(fit)[grep("sigma", names(fit))]), prob_outer=0.95)
+
+# mcmc_hist(posterior, pars = params)
+# mcmc_dens_overlay(posterior, pars = params)
+# mcmc_scatter(posterior, pars = c("beta0", "beta_SR"))
+
+mcmc_areas(
+  posterior, 
+  pars = params,
+  prob = 0.95, # 80% intervals
+  prob_outer = 1.0, # 999%
+  point_est = "mean"
+)
+
+# mcmc_combo(posterior, pars = params, combo = c("areas", "trace"))
+
+```
+
+MCMC_areas: Shaded areas represent 95% credible interval. Bar represents posterior mean
+
+\newpage
+
+*Posterior predictive plots*
+
+#### Results for deaths as count
+
+```{r ppc_plots, echo=F, results="asis", message=F, warning=F}
+
+# available_ppc()
+
+ppc_scatter_avg(y = log(y+1), yrep = log(y_rep+1))
+
+# # ROUGH PPC PLOTS
+
+# # Grouped plots...
+# # NICE...
+
+# ppc_stat_grouped(y,y_rep, group=data$parasite, stat=mean)
+
+# ppc_scatter_avg_grouped(log(y+1), log(y_rep+1), group=data$parasite, stat=mean)
+
+# prop_zero <- function(x) mean(x == 0)
+# prop_one <- function(x) mean(x == 1)
+
+# y_prop <- stan.data$deaths/stan.data$cases
+# y_rep_prop <- deaths_pred
+# y_rep_prop <- t(apply(deaths_pred, 1, function(x) x/stan.data$cases))
+
+# ppc_stat_grouped(y_prop,y_rep_prop[1:100,], group=data$parasite, stat="prop_one")
+
+```
+ppc_scatter_avg: y is log(deaths+1), y_rep is log(deaths_pred+1)
+
+\newpage
+
+
+```{r Fig. 1, echo=F, results="asis", message=F, warning=F, fig.width=6, fig.height=3}
+
+# Compare histogram of deaths to histograms of several deaths_pred
+ppc_hist(log(y+1), log(y_rep[1:8, ]+1), binwidth = 1)
+
+```
+
+&nbsp;
+&nbsp;
+
+Histograms of actual deaths (y) to predicted deaths (y_rep) for final 8 posterior draws
+
+&nbsp;
+&nbsp;
+&nbsp;
+
+
+```{r Fig. 2, echo=F, message=F, warning=F, fig.width=6, fig.height=3.5}
+
+# Compare density estimate of  to density estimates of a bunch of y_reps
+# ppc_dens_overlay(log(y), log(y_rep[1:50, ]))
+ppc_dens_overlay(log(y+1), log(y_rep[1:100, ]+1))
+
+```
+
+&nbsp;
+&nbsp;
+
+Density overlay of dealths (y) to predicted deaths (y_rep) for final 100 posterior draws. Both variables are log(+1) transformed.
+  
+&nbsp;
+&nbsp;
+
+
+```{r Fig. 3, echo=F, message=F, warning=F, fig.width=6, fig.height=3.5}
+
+# Compare proportion of zeros in obs 
+# to the distribution of that proportion over all pred
+prop_zero <- function(x) mean(x == 0)
+# print(prop_zero(y))
+## 0.325
+ppc_stat(y, y_rep, stat = "prop_zero")
+
+```
+&nbsp;
+&nbsp;
+
+Comparing the number of zeros death observations in observed deaths to mean number of zeros death observations over the posterior.
+  
+&nbsp;
+&nbsp;
+
+```{r Fig. 4 & 5, echo=F, fig.width=3.5, fig.height=3.5}
+
+# Other checks
+# Look at two statistics in a scatterplot:
+# ppc_stat_2d(y, y_rep, stat = c("mean", "sd"))
+ppc_stat_2d(log(y+1), log(y_rep+1), stat = c("mean", "sd"))
+
+```
+&nbsp;
+
+Scatter plot of mean and sd of deaths (log+1 transformed). Observed mean and sd are indicated in dark blue.
+
+&nbsp;
+&nbsp;
+
+```{r Fig. 6, echo=F, fig.width=6, fig.height=4}
+
+# Distributions of predictive errors:
+ppc_error_hist(log(y+1), log(y_rep[1:6, ]+1), binwidth = 1) + xlim(-15, 15)
+
+```
+&nbsp;
+&nbsp;
+
+Distributions of predictive errors (y - y_rep) for the last six posterior draws
+
+
+\newpage
+
+&nbsp;
+
+
+```{r means_by_para, echo=F, fig.width=8, fig.height=10}
+
+ppc_stat_grouped(y,y_rep, group=data$parasite, stat=mean)
+
+```
+ppc_stat_grouped: Mean deaths grouped by parasite
+
+
+&nbsp;
+&nbsp;
+
+
+#### Results for deaths as proportion (deaths/cases)
+
+```{r Fig. 7, echo=F, eval=T, message=F, warning=F,fig.width=6, fig.height=4}
+
+y <- stan.data$deaths/stan.data$cases
+y_rep <- deaths_pred
+y_rep <- t(apply(deaths_pred, 1, function(x) x/stan.data$cases))
+
+# Compare histogram of deaths/cases to histograms of several deaths_pred/cases
+ppc_hist(y, y_rep[1:8, ], binwidth = 0.1)
+
+```
+&nbsp;
+&nbsp;
+
+Histograms of actual deaths/cases (y) to predicted deaths/cases (y_rep) for final 8 posterior draws
+
+&nbsp;
+&nbsp;
+
+```{r Fig. 8, echo=F, message=F, warning=F, fig.width=6, fig.height=3.5}
+
+# Compare density estimate of  to density estimates of a bunch of y_reps
+ppc_dens_overlay(y, y_rep[1:100, ])
+
+```
+&nbsp;
+
+Density overlay of deaths/cases (y) to predicted deaths/cases (y_rep) for final 100 posterior draws.
+ 
+&nbsp;
+&nbsp;
+
+```{r Fig. 10, echo=F, message=F, warning=F, fig.width=6, fig.height=4}
+
+# Compare proportion of ones in obs 
+# to the distribution of that proportion over all pred
+prop_one <- function(x) mean(x == 1)
+# print(prop_one(y))
+## 0.3318
+ppc_stat(y, y_rep, stat = "prop_one")
+# not doing a great job here
+
+```
+&nbsp;
+&nbsp;
+
+Comparing the proportion of zeros in observed deaths/cases to mean proportion of zeros in deaths/cases over the posterior.
+
+&nbsp;
+&nbsp;
+
+```{r Fig. 11, echo=F, message=F, warning=F, fig.width=6, fig.height=4}
+
+# Distributions of predictive errors:
+ppc_error_hist(y, y_rep[1:9, ], binwidth = 0.1) + xlim(-1, 1)
+
+```
+&nbsp;
+
+Distributions of predictive errors (y - y_rep) for the last nine posterior draws
+
+&nbsp;
+&nbsp;
+
+\newpage
+
+```{r prop_one_by_para, echo=F, message=F, warning=F, fig.width=8, fig.height=10}
+
+ppc_stat_grouped(y,y_rep[1:100,], group=data$parasite, stat="prop_one")
+
+```
+Distribution of the proportion of 100% death observations grouped by parasite
