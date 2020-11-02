@@ -1,0 +1,553 @@
+"order","family","genus","binomial","synonym"
+"Struthioniformes","STRUTHIONIDAE","Struthio","Struthio camelus",NA
+"Podicipediformes","PODICIPEDIDAE","Trachybaptus","Trachybaptus ruficollis","Colymbus ruficollis"
+"Pelecaniformes","PELECANIDAE","Pelecanus","Pelecanus onocrotalus",NA
+"Pelecaniformes","PELECANIDAE","Pelecanus","Pelecanus rufescens",NA
+"Suliformes","PHALACROCORACIDAE","Phalacrocorax","Phalacrocorax lucidus","Phalacrocorax carbo"
+"Suliformes","PHALACROCORACIDAE","Phalacrocorax","Phalacrocorax lucidus","Pelecanus carbo"
+"Suliformes","PHALACROCORACIDAE","Phalacrocorax","Phalacrocorax africanus","Pelecanus africanus"
+"Suliformes","ANHINGIDAE","Anhinga","Anhinga rufa","Anhinga melanogaster"
+"Pelecaniformes","ARDEIDAE","Ardea","Ardea cinerea",NA
+"Pelecaniformes","ARDEIDAE","Ardea","Ardea melanocephala",NA
+"Pelecaniformes","ARDEIDAE","Ardea","Ardea goliath",NA
+"Pelecaniformes","ARDEIDAE","Ardea","Ardea purpurea",NA
+"Pelecaniformes","ARDEIDAE","Egretta","Egretta alba","Casmerodius albus"
+"Pelecaniformes","ARDEIDAE","Egretta","Egretta alba","Ardea alba"
+"Pelecaniformes","ARDEIDAE","Egretta","Egretta garzetta","Ardea garzetta"
+"Pelecaniformes","ARDEIDAE","Egretta","Egretta intermedia","Ardea intermedia"
+"Pelecaniformes","ARDEIDAE","Egretta","Egretta ardesiaca","Ardea ardesiaca"
+"Pelecaniformes","ARDEIDAE","Bubulcus","Bubulcus ibis","Ardea ibis"
+"Pelecaniformes","ARDEIDAE","Ardeola","Ardeola ralloides","Ardea ralloides"
+"Pelecaniformes","ARDEIDAE","Butorides","Butorides striatus","Ardea striatus"
+"Pelecaniformes","ARDEIDAE","Butorides","Butorides rufiventris","Ardeola rufiventris"
+"Pelecaniformes","ARDEIDAE","Butorides","Butorides rufiventris","Ardea rufiventris"
+"Pelecaniformes","ARDEIDAE","Nycticorax","Nycticorax nycticorax","Ardea nycticorax"
+"Pelecaniformes","ARDEIDAE","Gorsachius","Gorsachius leuconotus","Ardea leuconotus"
+"Pelecaniformes","ARDEIDAE","Ixobrychus","Ixobrychus minutus","Ardea minuta"
+"Pelecaniformes","ARDEIDAE","Ixobrychus","Ixobrychus sturmii","Ardeirallus sturmii"
+"Pelecaniformes","ARDEIDAE","Ixobrychus","Ixobrychus sturmii","Ardea sturmii"
+"Pelecaniformes","ARDEIDAE","Botaurus","Botaurus stellaris","Ardea stellaris"
+"Pelecaniformes","SCOPIDAE","Scopus","Scopus umbretta",NA
+"Ciconiiformes","CICONIIDAE","Ciconia","Ciconia ciconia","Ardea ciconia"
+"Ciconiiformes","CICONIIDAE","Ciconia","Ciconia nigra","Ardea nigra"
+"Ciconiiformes","CICONIIDAE","Ciconia","Ciconia abdimii",NA
+"Ciconiiformes","CICONIIDAE","Ciconia","Ciconia episcopus","Ardea episcopus"
+"Ciconiiformes","CICONIIDAE","Anastomus","Anastomus lamelligerus",NA
+"Ciconiiformes","CICONIIDAE","Ephippiorhynchus","Ephippiorhynchus senegalensis","Mycteria senegalensis"
+"Ciconiiformes","CICONIIDAE","Leptoptilos","Leptoptilos crumeniferus","Ciconia crumenifera"
+"Ciconiiformes","CICONIIDAE","Mycteria","Mycteria ibis","Tantalus ibis"
+"Pelecaniformes","THRESKIORNITHIDAE","Threskiornis","Threskiornis aethiopicus","Tantalus aethiopicus"
+"Pelecaniformes","THRESKIORNITHIDAE","Plegadis","Plegadis falcinellus","Tantalus falcinellus"
+"Pelecaniformes","THRESKIORNITHIDAE","Bostrychia","Bostrychia hagedash","Hagedashia hagedash"
+"Pelecaniformes","THRESKIORNITHIDAE","Bostrychia","Bostrychia hagedash","Tantalus hagedash"
+"Pelecaniformes","THRESKIORNITHIDAE","Platalea","Platalea alba",NA
+"Phoenicopteriformes","PHOENICOPTERIDAE","Phoenicopterus","Phoenicopterus ruber",NA
+"Phoenicopteriformes","PHOENICOPTERIDAE","Phoeniconaias","Phoeniconaias minor","Phoenicopterus minor"
+"Anseriformes","ANATIDAE","Dendrocygna","Dendrocygna viduata","Anas viduata"
+"Anseriformes","ANATIDAE","Dendrocygna","Dendrocygna bicolor","Anas bicolor"
+"Anseriformes","ANATIDAE","Thalassornis","Thalassornis leuconotus",NA
+"Anseriformes","ANATIDAE","Alopochen","Alopochen aegyptiacus","Anas aegyptiaca"
+"Anseriformes","ANATIDAE","Anas","Anas undulata",NA
+"Anseriformes","ANATIDAE","Anas","Anas sparsa",NA
+"Anseriformes","ANATIDAE","Anas","Anas hottentota",NA
+"Anseriformes","ANATIDAE","Anas","Anas erythrorhyncha",NA
+"Anseriformes","ANATIDAE","Anas","Anas smithii","Spatula smithii"
+"Anseriformes","ANATIDAE","Netta","Netta erythrophthalma","Anas erythrophthalma"
+"Anseriformes","ANATIDAE","Nettapus","Nettapus auritus","Anas aurita"
+"Anseriformes","ANATIDAE","Sarkidiornis","Sarkidiornis melanotos","Anser melanotos"
+"Anseriformes","ANATIDAE","Plectropterus","Plectropterus gambensis","Anas gambensis"
+"Anseriformes","ANATIDAE","Oxyura","Oxyura maccoa","Erismatura maccoa"
+"Accipitriformes","SAGITTARIIDAE","Sagittarius","Sagittarius serpentarius","Falco serpentarius"
+"Accipitriformes","ACCIPITRIDAE","Neophron","Neophron percnopterus","Vultur perenopterus"
+"Accipitriformes","ACCIPITRIDAE","Necrosyrtes","Necrosyrtes monachus","Cathartes monachus"
+"Accipitriformes","ACCIPITRIDAE","Gyps","Gyps coprotheres","Vultur coprotheres"
+"Accipitriformes","ACCIPITRIDAE","Gyps","Gyps africanus",NA
+"Accipitriformes","ACCIPITRIDAE","Aegypius","Aegypius tracheliotus","Torgos tracheliotus"
+"Accipitriformes","ACCIPITRIDAE","Aegypius","Aegypius tracheliotus","Vultur tracheliotus"
+"Accipitriformes","ACCIPITRIDAE","Aegypius","Aegypius occipitalis","Trigonoceps occipitalis"
+"Accipitriformes","ACCIPITRIDAE","Aegypius","Aegypius occipitalis","Vultur occipitalis"
+"Accipitriformes","ACCIPITRIDAE","Milvus","Milvus aegypticus","Falco migrans"
+"Accipitriformes","ACCIPITRIDAE","Milvus","Milvus migrans","Falco migrans"
+"Accipitriformes","ACCIPITRIDAE","Elanus","Elanus caeruleus","Falco caeruleus"
+"Accipitriformes","ACCIPITRIDAE","Aviceda","Aviceda cuculoides",NA
+"Accipitriformes","ACCIPITRIDAE","Macheiramphus","Macheiramphus alcinus",NA
+"Accipitriformes","ACCIPITRIDAE","Pernis","Pernis apivorus","Falco apivorus"
+"Accipitriformes","ACCIPITRIDAE","Aquila","Aquila verreauxi",NA
+"Accipitriformes","ACCIPITRIDAE","Aquila","Aquila rapax","Falco rapax"
+"Accipitriformes","ACCIPITRIDAE","Aquila","Aquila nipalensis",NA
+"Accipitriformes","ACCIPITRIDAE","Aquila","Aquila pomarina",NA
+"Accipitriformes","ACCIPITRIDAE","Aquila","Aquila wahlbergi",NA
+"Accipitriformes","ACCIPITRIDAE","Hieraaetus","Hieraaetus pennatus","Falco pennatus"
+"Accipitriformes","ACCIPITRIDAE","Aquila","Aquila spilogaster","Hieraaetus spilogaster"
+"Accipitriformes","ACCIPITRIDAE","Aquila","Aquila spilogaster","Hieraaetus fasciatus"
+"Accipitriformes","ACCIPITRIDAE","Aquila","Aquila spilogaster","Spizäetus spilogaster"
+"Accipitriformes","ACCIPITRIDAE","Aquila","Aquila ayresii","Hieraaetus dubius"
+"Accipitriformes","ACCIPITRIDAE","Aquila","Aquila ayresii","Hieraaetus ayresii"
+"Accipitriformes","ACCIPITRIDAE","Aquila","Aquila ayresii","Morphinus dubius"
+"Accipitriformes","ACCIPITRIDAE","Lophaetus","Lophaetus occipitalis","Falco occipitalis"
+"Accipitriformes","ACCIPITRIDAE","Polemaetus","Polemaetus bellicosus","Falco bellicosus"
+"Accipitriformes","ACCIPITRIDAE","Stephanoaetus","Stephanoaetus coronatus","Falco coronatus"
+"Accipitriformes","ACCIPITRIDAE","Circaetus","Circaetus cinereus",NA
+"Accipitriformes","ACCIPITRIDAE","Circaetus","Circaetus pectoralis","Circaetus gallicus"
+"Accipitriformes","ACCIPITRIDAE","Circaetus","Circaetus pectoralis","Falco gallicus"
+"Accipitriformes","ACCIPITRIDAE","Terathopius","Terathopius ecaudatus","Falco ecaudatus"
+"Accipitriformes","ACCIPITRIDAE","Gypohierax","Gypohierax angolensis","Falco angolensis"
+"Accipitriformes","ACCIPITRIDAE","Haliaeetus","Haliaeetus vocifer","Falco vocifer"
+"Accipitriformes","ACCIPITRIDAE","Buteo","Buteo vulpinus","Buteo buteo"
+"Accipitriformes","ACCIPITRIDAE","Buteo","Buteo vulpinus","Falco buteo"
+"Accipitriformes","ACCIPITRIDAE","Buteo","Buteo rufofuscus","Falco rufofuscus"
+"Accipitriformes","ACCIPITRIDAE","Kaupifalco","Kaupifalco monogrammicus","Falco monogrammicus"
+"Accipitriformes","ACCIPITRIDAE","Accipiter","Accipiter ovampensis",NA
+"Accipitriformes","ACCIPITRIDAE","Accipiter","Accipiter minullus","Falco minullus"
+"Accipitriformes","ACCIPITRIDAE","Accipiter","Accipiter melanoleucas","Accipiter melanoleues"
+"Accipitriformes","ACCIPITRIDAE","Accipiter","Accipiter badius","Falco badius"
+"Accipitriformes","ACCIPITRIDAE","Accipiter","Accipiter tachiro","Falco tachiro"
+"Accipitriformes","ACCIPITRIDAE","Melierax","Melierax gabar","Micronisus gabar"
+"Accipitriformes","ACCIPITRIDAE","Melierax","Melierax gabar","Falco gabar"
+"Accipitriformes","ACCIPITRIDAE","Melierax","Melierax metabates",NA
+"Accipitriformes","ACCIPITRIDAE","Donker","Donker Witvalk",NA
+"Accipitriformes","ACCIPITRIDAE","Circus","Circus aeruginosus","Falco aeruginosus"
+"Accipitriformes","ACCIPITRIDAE","Circus","Circus ranivorus","Falco ranivorus"
+"Accipitriformes","ACCIPITRIDAE","Circus","Circus pygargus","Falco pygargus"
+"Accipitriformes","ACCIPITRIDAE","Circus","Circus macrourus","Falco macrourus"
+"Accipitriformes","ACCIPITRIDAE","Polyboroides","Polyboroides typus",NA
+"Accipitriformes","PANDIONIDAE","Pandion","Pandion haliaetus","Falco haliaetus"
+"Falconiformes","FALCONIDAE","Falco","Falco peregrinus",NA
+"Falconiformes","FALCONIDAE","Falco","Falco biarmicus",NA
+"Falconiformes","FALCONIDAE","Falco","Falco subbuteo",NA
+"Falconiformes","FALCONIDAE","Falco","Falco cuvieri",NA
+"Falconiformes","FALCONIDAE","Falco","Falco chicquera",NA
+"Falconiformes","FALCONIDAE","Falco","Falco vespertinus",NA
+"Falconiformes","FALCONIDAE","Falco","Falco amurensis","Falco vespertinus"
+"Falconiformes","FALCONIDAE","Falco","Falco rupicolus","Falco tinnunculus"
+"Falconiformes","FALCONIDAE","Falco","Falco rupicoloides",NA
+"Falconiformes","FALCONIDAE","Falco","Falco naumanni",NA
+"Falconiformes","FALCONIDAE","Falco","Falco dickinsoni",NA
+"Falconiformes","FALCONIDAE","Polihierax","Polihierax semitorquatus","Falco simitorquata"
+"Galliformes","PHASIANIDAE","Peliperdix","Peliperdix coqui","Francolinus coqui"
+"Galliformes","PHASIANIDAE","Peliperdix","Peliperdix coqui","Perdix coqui"
+"Galliformes","PHASIANIDAE","Dendroperdix","Dendroperdix sephaena","Francolinus sephaena"
+"Galliformes","PHASIANIDAE","Dendroperdix","Dendroperdix sephaena","Perdix sephaena"
+"Galliformes","PHASIANIDAE","Scleroptila","Scleroptila shelleyi","Francolinus shelleyi"
+"Galliformes","PHASIANIDAE","Pternistis","Pternistis natalensis","Francolinus natalensis"
+"Galliformes","PHASIANIDAE","Pternistis","Pternistis afer","Francolinus afer"
+"Galliformes","PHASIANIDAE","Pternistis","Pternistis afer","Tetrao afer"
+"Galliformes","PHASIANIDAE","Francolinus","Francolinus swainsonii","Pternistis swainsoni"
+"Galliformes","PHASIANIDAE","Francolinus","Francolinus swainsonii","Perdix swainsonii"
+"Galliformes","PHASIANIDAE","Coturnix","Coturnix coturnix","Tetrao coturnix"
+"Galliformes","PHASIANIDAE","Coturnix","Coturnix delegorguei",NA
+"Galliformes","NUMIDIDAE","Numida","Numida meleagris",NA
+"Galliformes","NUMIDIDAE","Guttera","Guttera edouardi","Guttera pucherani"
+"Galliformes","NUMIDIDAE","Guttera","Guttera edouardi","Numida pucherani"
+"Charadriiformes","TURNICIDAE","Turnix","Turnix sylvatica","Tetrao sylvaticus"
+"Charadriiformes","TURNICIDAE","Turnix","Turnix hottentotta",NA
+"Gruiformes","GRUIDAE","Balearica","Balearica regulorum","Anthropoides regulorum"
+"Gruiformes","RALLIDAE","Rallus","Rallus caerulescens",NA
+"Gruiformes","RALLIDAE","Crex","Crex crex",NA
+"Gruiformes","RALLIDAE","Crecopsis","Crecopsis egregia","Crex egregia"
+"Gruiformes","RALLIDAE","Crecopsis","Crecopsis egregia","Ortygometra Crex"
+"Gruiformes","RALLIDAE","Amaurornis","Amaurornis flavirostris","Limnocorax flavirostris"
+"Gruiformes","RALLIDAE","Amaurornis","Amaurornis flavirostris","Gallinula flavirostra"
+"Gruiformes","RALLIDAE","Porzana","Porzana pusilla","Rallus pusillus"
+"Gruiformes","RALLIDAE","Aenigmatolomnas","Aenigmatolomnas marginalis","Porzana marginalis"
+"Gruiformes","RALLIDAE","Sarothrura","Sarothrura rufa","Rallus rufus"
+"Gruiformes","RALLIDAE","Sarothrura","Sarothrura elegans","Gallinulla elegans"
+"Gruiformes","RALLIDAE","Porphyrio","Porphyrio porphyrio","Fulica porphyrio"
+"Gruiformes","RALLIDAE","Porphyrio","Porphyrio alleni",NA
+"Gruiformes","RALLIDAE","Gallinula","Gallinula chloropus","Fulica chloropus"
+"Gruiformes","RALLIDAE","Gallinula","Gallinula angulata",NA
+"Gruiformes","RALLIDAE","Fulica","Fulica cristata",NA
+"Gruiformes","HELIORNITHIDAE","Podica","Podica senegalensis","Heliopais senegalensis"
+"Otidiformes","OTIDIDAE","Ardeotis","Ardeotis kori","Otis kori"
+"Otidiformes","OTIDIDAE","Neotis","Neotis denhami","Otis denhami"
+"Otidiformes","OTIDIDAE","Lophotis","Lophotis ruficrista","Eupodotis ruficrista"
+"Otidiformes","OTIDIDAE","Lophotis","Lophotis ruficrista","Otis ruficrista"
+"Otidiformes","OTIDIDAE","Lissotes","Lissotes melanogaster","Eupodotis melanogaster"
+"Otidiformes","OTIDIDAE","Lissotes","Lissotes melanogaster","Otis melanogaster"
+"Charadriiformes","JACANIDAE","Actophilornis","Actophilornis africanus","Parra africana"
+"Charadriiformes","JACANIDAE","Microparra","Microparra capensis","Parra capensis"
+"Charadriiformes","ROSTRATULIDAE","Rostratula","Rostratula benghalensis","Ralllus benghalensis"
+"Charadriiformes","CHARADRIIDAE","Charadrius","Charadrius hiaticula",NA
+"Charadriiformes","CHARADRIIDAE","Charadrius","Charadrius marginatus",NA
+"Charadriiformes","CHARADRIIDAE","Charadrius","Charadrius pallidus",NA
+"Charadriiformes","CHARADRIIDAE","Charadrius","Charadrius pecuarius",NA
+"Charadriiformes","CHARADRIIDAE","Charadrius","Charadrius tricollaris",NA
+"Charadriiformes","CHARADRIIDAE","Charadrius","Charadrius asiaticus",NA
+"Charadriiformes","CHARADRIIDAE","Pluvialis","Pluvialis squatarola",NA
+"Charadriiformes","CHARADRIIDAE","Vanellus","Vanellus coronatus","Charadrius coronatus"
+"Charadriiformes","CHARADRIIDAE","Vanellus","Vanellus coronatus","Stephanibyx coronatus"
+"Charadriiformes","CHARADRIIDAE","Vanellus","Vanellus lugubris","Charadrius lugubris"
+"Charadriiformes","CHARADRIIDAE","Vanellus","Vanellus lugubris","Stephanibyx lugubris"
+"Charadriiformes","CHARADRIIDAE","Vanellus","Vanellus armatus","Charadrius armatus"
+"Charadriiformes","CHARADRIIDAE","Vanellus","Vanellus armatus","Hoplopterus armatus"
+"Charadriiformes","CHARADRIIDAE","Vanellus","Vanellus albiceps","Xiphidiopterus albiceps"
+"Charadriiformes","CHARADRIIDAE","Vanellus","Vanellus sengallus","Parra senegalla"
+"Charadriiformes","CHARADRIIDAE","Vanellus","Vanellus sengallus","Xiphidiopterus senegallus"
+"Charadriiformes","SCOLOPACIDAE","Arenaria","Arenaria interpres","Tringa interpres"
+"Charadriiformes","SCOLOPACIDAE","Actitis","Actitis hypoleucos","Tringa hypoleucos"
+"Charadriiformes","SCOLOPACIDAE","Tringa","Tringa ochropus",NA
+"Charadriiformes","SCOLOPACIDAE","Tringa","Tringa glareola",NA
+"Charadriiformes","SCOLOPACIDAE","Tringa","Tringa totanus","Scolopax totanus"
+"Charadriiformes","SCOLOPACIDAE","Tringa","Tringa stagnatilis","Totanus stagnatilis"
+"Charadriiformes","SCOLOPACIDAE","Tringa","Tringa nebularia","Scolopax nebularia"
+"Charadriiformes","SCOLOPACIDAE","Calidris","Calidris ferruginea","Tringa ferruginea"
+"Charadriiformes","SCOLOPACIDAE","Calidris","Calidris minuta","Tringa minuta"
+"Charadriiformes","SCOLOPACIDAE","Calidris","Calidris alba","Tringa alba"
+"Charadriiformes","SCOLOPACIDAE","Philomachus","Philomachus pugnax","Tringa pugnax"
+"Charadriiformes","SCOLOPACIDAE","Gallinago","Gallinago nigripennis",NA
+"Charadriiformes","SCOLOPACIDAE","Numenius","Numenius phaeopus","Scolopax phaeopus"
+"Charadriiformes","RECURVIROSTRIDAE","Recurvirostra","Recurvirostra avosetta",NA
+"Charadriiformes","RECURVIROSTRIDAE","Himantopus","Himantopus himantopus","Charadrius himantopus"
+"Charadriiformes","BURHINIDAE","Burhinus","Burhinus capensis","Oedicnemus capensis"
+"Charadriiformes","BURHINIDAE","Burhinus","Burhinus vermiculatus","Oedicnemus vermiculatus"
+"Charadriiformes","GLAREOLIDAE","Cursorius","Cursorius rufus",NA
+"Charadriiformes","GLAREOLIDAE","Cursorius","Cursorius temminckii",NA
+"Charadriiformes","GLAREOLIDAE","Rhinoptilus","Rhinoptilus cinctus",NA
+"Charadriiformes","GLAREOLIDAE","Rhinoptilus","Rhinoptilus chalcopterus","Cursorius chalcopterus"
+"Charadriiformes","GLAREOLIDAE","Glareola","Glareola pratincola","Hirundo pratincola"
+"Charadriiformes","GLAREOLIDAE","Gewone","Gewone Kleinsprinkaanvoël",NA
+"Charadriiformes","LARIDAE","Stercorarius","Stercorarius parasiticus","Larus parasiticus"
+"Charadriiformes","LARIDAE","Larus","Larus cirrocephalus",NA
+"Charadriiformes","LARIDAE","Sterna","Sterna fuscata",NA
+"Charadriiformes","LARIDAE","Chlidonias","Chlidonias hybridus","Sterna hybrida"
+"Charadriiformes","LARIDAE","Chlidonias","Chlidonias hybridus","Chlidonias hybrida"
+"Charadriiformes","LARIDAE","Chlidonias","Chlidonias leucopterus","Sterna leucoptera"
+"Charadriiformes","LARIDAE","Chlidonias","Chlidonias leucopterus","Chlidonias leucoptera"
+"Pterocliformes","PTEROCLIDAE","Pterocles","Pterocles bicinctus",NA
+"Pterocliformes","PTEROCLIDAE","Dubbelbandsandpatrys","Dubbelbandsandpatrys Endemic",NA
+"Columbiformes","COLUMBIDAE","Columba","Columba guinea",NA
+"Columbiformes","COLUMBIDAE","Streptopelia","Streptopelia semitorquata","Columba semitorquata"
+"Columbiformes","COLUMBIDAE","Streptopelia","Streptopelia decipiens","Turtur decipiens"
+"Columbiformes","COLUMBIDAE","Streptopelia","Streptopelia capicola","Columba vinacea"
+"Columbiformes","COLUMBIDAE","Streptopelia","Streptopelia senegalensis","Columba senegalensis"
+"Columbiformes","COLUMBIDAE","Streptopelia","Streptopelia senegalensis","Stigmatopelia senegalensis"
+"Columbiformes","COLUMBIDAE","Oena","Oena capensis","Columba capensis"
+"Columbiformes","COLUMBIDAE","Turtur","Turtur afer","Columba afer"
+"Columbiformes","COLUMBIDAE","Turtur","Turtur chalcospilos","Columba chalcospilos"
+"Columbiformes","COLUMBIDAE","Turtur","Turtur tympanistria","Columba tympanistria"
+"Columbiformes","COLUMBIDAE","Aplopelia","Aplopelia larvata",NA
+"Columbiformes","COLUMBIDAE","Treron","Treron calva","Columba calva"
+"Columbiformes","COLUMBIDAE","Treron","Treron calva","Treron australis"
+"Psittaciformes","PSITTACIDAE","Poicephalus","Poicephalus cryptoxanthus","Psittacus cryptoxanthus"
+"Psittaciformes","PSITTACIDAE","Poicephalus","Poicephalus meyeri",NA
+"Psittaciformes","PSITTACIDAE","Poicephalus","Poicephalus fuscicollis",NA
+"Musophagiformes","MUSOPHAGIDAE","Gallirex","Gallirex porphyreolophus","Tauraco porphyreolophus"
+"Musophagiformes","MUSOPHAGIDAE","Gallirex","Gallirex porphyreolophus","Corythaix porphyreolophus"
+"Musophagiformes","MUSOPHAGIDAE","Corythaixoides","Corythaixoides concolor",NA
+"Cuculiformes","CUCULIDAE","Cuculus","Cuculus canorus",NA
+"Cuculiformes","CUCULIDAE","Cuculus","Cuculus gularis",NA
+"Cuculiformes","CUCULIDAE","Cuculus","Cuculus solitarius",NA
+"Cuculiformes","CUCULIDAE","Cuculus","Cuculus clamosus",NA
+"Cuculiformes","CUCULIDAE","Clamator","Clamator glandarius","Cuculus glandarius"
+"Cuculiformes","CUCULIDAE","Clamator","Clamator levaillantii","Coccyzus levaillantii"
+"Cuculiformes","CUCULIDAE","Clamator","Clamator jacobinus","Cuculus jacobinus"
+"Cuculiformes","CUCULIDAE","Pachycoccyx","Pachycoccyx audeberti","Cuculus audeberti"
+"Cuculiformes","CUCULIDAE","Chrysococcyx","Chrysococcyx cupreus",NA
+"Cuculiformes","CUCULIDAE","Chrysococcyx","Chrysococcyx klaas",NA
+"Cuculiformes","CUCULIDAE","Chrysococcyx","Chrysococcyx caprius",NA
+"Cuculiformes","CUCULIDAE","Centropus","Centropus grillii",NA
+"Cuculiformes","CUCULIDAE","Centropus","Centropus burchellii","Centropus superciliosus"
+"Strigiformes","TYTONIDAE","Tyto","Tyto alba",NA
+"Strigiformes","TYTONIDAE","Tyto","Tyto capensis",NA
+"Strigiformes","TYTONIDAE","Strix","Strix woodfordii","Noctua woodfordii"
+"Strigiformes","TYTONIDAE","Strix","Strix woodfordii","Ciccaba woodfordii"
+"Strigiformes","TYTONIDAE","Asio","Asio capensis","Otus capensis"
+"Strigiformes","TYTONIDAE","Otus","Otus senegalensis","Otus scops"
+"Strigiformes","TYTONIDAE","Otus","Otus senegalensis","Strix scops"
+"Strigiformes","TYTONIDAE","Ptilopsis","Ptilopsis granti","Otus leucotis"
+"Strigiformes","TYTONIDAE","Ptilopsis","Ptilopsis granti","Strix leucotis"
+"Strigiformes","TYTONIDAE","Glaucidium","Glaucidium perlatum","Strix perlata"
+"Strigiformes","TYTONIDAE","Glaucidium","Glaucidium capense","Noctua capensis"
+"Strigiformes","TYTONIDAE","Bubo","Bubo africanus","Strix africana"
+"Strigiformes","TYTONIDAE","Bubo","Bubo lacteus","Strix lactea"
+"Strigiformes","TYTONIDAE","Scotopelia","Scotopelia peli",NA
+"Caprimulgiformes","CAPRIMULGIDAE","Caprimulgus","Caprimulgus europaeus",NA
+"Caprimulgiformes","CAPRIMULGIDAE","Caprimulgus","Caprimulgus pectoralis",NA
+"Caprimulgiformes","CAPRIMULGIDAE","Caprimulgus","Caprimulgus rufigena",NA
+"Caprimulgiformes","CAPRIMULGIDAE","Caprimulgus","Caprimulgus tristigma",NA
+"Caprimulgiformes","CAPRIMULGIDAE","Caprimulgus","Caprimulgus fossii",NA
+"Caprimulgiformes","CAPRIMULGIDAE","Macrodipteryx","Macrodipteryx vexillaria","Semeiophorus vexillarius"
+"Apodiformes","APODIDAE","Apus","Apus apus","Hirundo apus"
+"Apodiformes","APODIDAE","Apus","Apus barbatus","Cypselus barbatus"
+"Apodiformes","APODIDAE","Apus","Apus caffer","Cypselus caffer"
+"Apodiformes","APODIDAE","Apus","Apus horus",NA
+"Apodiformes","APODIDAE","Apus","Apus affinis","Cypselus affinis"
+"Apodiformes","APODIDAE","Tachymarptis","Tachymarptis melba","Apus melba"
+"Apodiformes","APODIDAE","Tachymarptis","Tachymarptis melba","Hirundo melba"
+"Apodiformes","APODIDAE","Cypsiurus","Cypsiurus parvus","Cypselus parvus"
+"Apodiformes","APODIDAE","Telacanthura","Telacanthura ussheri","Chaetura ussheri"
+"Apodiformes","APODIDAE","Neafrapus","Neafrapus boehmi","Chaetura boehmi"
+"Coliiformes","COLIIDAE","Colius","Colius striatus",NA
+"Coliiformes","COLIIDAE","Urocolius","Urocolius indicus","Colius indicus"
+"Trogoniformes","TROGONIDAE","Apaloderma","Apaloderma narina",NA
+"Coraciiformes","ALCEDINIDAE","Ceryle","Ceryle rudis","Alcedo rudis"
+"Coraciiformes","ALCEDINIDAE","Megaceryle","Megaceryle maxima","Ceryle maxima"
+"Coraciiformes","ALCEDINIDAE","Megaceryle","Megaceryle maxima","Alcedo maxima"
+"Coraciiformes","ALCEDINIDAE","Alcedo","Alcedo semitorquata",NA
+"Coraciiformes","ALCEDINIDAE","Alcedo","Alcedo cristata","Corythornis cristata"
+"Coraciiformes","ALCEDINIDAE","Ispidina","Ispidina picta",NA
+"Coraciiformes","ALCEDINIDAE","Halcyon","Halcyon senegalensis","Alcedo senegalensis"
+"Coraciiformes","ALCEDINIDAE","Halcyon","Halcyon albiventris","Alcedo albiventris"
+"Coraciiformes","ALCEDINIDAE","Halcyon","Halcyon leucocephala","Alcedo leucophala"
+"Coraciiformes","ALCEDINIDAE","Halcyon","Halcyon chelicuti","Alcedo chelicuti"
+"Coraciiformes","MEROPIDAE","Merops","Merops apiaster",NA
+"Coraciiformes","MEROPIDAE","Merops","Merops persicus","Merops persica"
+"Coraciiformes","MEROPIDAE","Merops","Merops persicus","Merops superciliosus"
+"Coraciiformes","MEROPIDAE","Merops","Merops nubicoides","Merops nubicus"
+"Coraciiformes","MEROPIDAE","Merops","Merops bullockoides","Melittophagus bullockoides"
+"Coraciiformes","MEROPIDAE","Merops","Merops pusillus","Melittophagus pusillus"
+"Coraciiformes","MEROPIDAE","Merops","Merops hirundineus",NA
+"Coraciiformes","CORACIIDAE","Coracias","Coracias garrulus",NA
+"Coraciiformes","CORACIIDAE","Coracias","Coracias caudatus",NA
+"Coraciiformes","CORACIIDAE","Coracias","Coracias spatulatus","Coracias spatulatus"
+"Coraciiformes","CORACIIDAE","Coracias","Coracias naevia",NA
+"Coraciiformes","CORACIIDAE","Eurystomus","Eurystomus glaucurus","Coracias glaucurus"
+"Bucerotiformes","UPUPIDAE","Upupa","Upupa africana","Upupa epops"
+"Bucerotiformes","PHOENICULIDAE","Phoeniculus","Phoeniculus purpureus","Promerops purpureus"
+"Bucerotiformes","PHOENICULIDAE","Rhinopomastus","Rhinopomastus cyanomelas","Falcinellus cyanomelas"
+"Bucerotiformes","BUCEROTIDAE","Bycanistes","Bycanistes bucinator","Buceros bucinator"
+"Bucerotiformes","BUCEROTIDAE","Tockus","Tockus leucomelas","Buceros leucomelas"
+"Bucerotiformes","BUCEROTIDAE","Tockus","Tockus nasutus","Buceros nasutus"
+"Bucerotiformes","BUCEROTIDAE","Tockus","Tockus erythrorhynchus","Buceros erythrorhynchus"
+"Bucerotiformes","BUCEROTIDAE","Tockus","Tockus alboterminatus","Lophoceros alboterminatus"
+"Bucerotiformes","BUCEROTIDAE","Bucorvus","Bucorvus leadbeateri",NA
+"Piciformes","LYBIIDAE","Lybius","Lybius torquatus","Bucco torquatus"
+"Piciformes","LYBIIDAE","Tricholaema","Tricholaema leucomelas","Bucco leucomelas"
+"Piciformes","LYBIIDAE","Pogoniulus","Pogoniulus chrysoconus","Bucco chrysoconus"
+"Piciformes","LYBIIDAE","Pogoniulus","Pogoniulus bilineatus",NA
+"Piciformes","LYBIIDAE","Trachyphonus","Trachyphonus vaillantii",NA
+"Piciformes","INDICATORIDAE","Indicator","Indicator indicator","Cuculus indicator"
+"Piciformes","INDICATORIDAE","Indicator","Indicator variegatus",NA
+"Piciformes","INDICATORIDAE","Indicator","Indicator minor",NA
+"Piciformes","INDICATORIDAE","Prodotiscus","Prodotiscus regulus",NA
+"Piciformes","PICIDAE","Campethera","Campethera bennettii","Chrysoptilus bennettii"
+"Piciformes","PICIDAE","Campethera","Campethera abingoni","Chrysoptilus albingoni"
+"Piciformes","PICIDAE","Dendropicos","Dendropicos fuscescens","Picus fuscescens"
+"Piciformes","PICIDAE","Thripias","Thripias namaquus","Picus namaquus"
+"Piciformes","PICIDAE","Jynx","Jynx ruficollis",NA
+"Passeriformes","PITTIDAE","Pitta","Pitta angolensis",NA
+"Passeriformes","ALAUDIDAE","Mirafra","Mirafra passerina",NA
+"Passeriformes","ALAUDIDAE","Mirafra","Mirafra africana",NA
+"Passeriformes","ALAUDIDAE","Mirafra","Mirafra rufocinnamomea","Megalophoneus rufocinnamomea"
+"Passeriformes","ALAUDIDAE","Calendulauda","Calendulauda africanoides","Mirafra africanoides"
+"Passeriformes","ALAUDIDAE","Calendulauda","Calendulauda sabota",NA
+"Passeriformes","ALAUDIDAE","Mirafra","Mirafra sabota",NA
+"Passeriformes","ALAUDIDAE","Pinarocorys","Pinarocorys nigricans","Alauda nigricans"
+"Passeriformes","ALAUDIDAE","Calandrella","Calandrella cinerea","Alauda cinerea"
+"Passeriformes","ALAUDIDAE","Eremopterix","Eremopterix leucotis",NA
+"Passeriformes","ALAUDIDAE","Eremopterix","Eremopterix verticalis",NA
+"Passeriformes","HIRUNDINIDAE","Hirundo","Hirundo rustica",NA
+"Passeriformes","HIRUNDINIDAE","Hirundo","Hirundo albigularis",NA
+"Passeriformes","HIRUNDINIDAE","Hirundo","Hirundo smithii",NA
+"Passeriformes","HIRUNDINIDAE","Hirundo","Hirundo dimidiata",NA
+"Passeriformes","HIRUNDINIDAE","Hirundo","Hirundo semirufa","Cecropis semirufa"
+"Passeriformes","HIRUNDINIDAE","Hirundo","Hirundo senegalensis","Cecrops senegalensis"
+"Passeriformes","HIRUNDINIDAE","Hirundo","Hirundo cucullata","Cecropis cucullata"
+"Passeriformes","HIRUNDINIDAE","Hirundo","Hirundo abyssinica","Cecropis abyssinica"
+"Passeriformes","HIRUNDINIDAE","Hirundo","Hirundo fuligula","Ptynoprogne fuligula"
+"Passeriformes","HIRUNDINIDAE","Delichon","Delichon urbica","Hirundo urbica"
+"Passeriformes","HIRUNDINIDAE","Pseudhirundo","Pseudhirundo griseopyga","Hirundo griseopyga"
+"Passeriformes","HIRUNDINIDAE","Riparia","Riparia riparia","Hirundo riparia"
+"Passeriformes","HIRUNDINIDAE","Riparia","Riparia paludicola","Hirundo paludicola"
+"Passeriformes","HIRUNDINIDAE","Riparia","Riparia cincta","Hirundo cincta"
+"Passeriformes","HIRUNDINIDAE","Psalidoprocne","Psalidoprocne holomelas","Psalidoprocne holomelaena"
+"Passeriformes","CAMPEPHAGIDAE","Campephaga","Campephaga flava","Campephaga phoenicea"
+"Passeriformes","CAMPEPHAGIDAE","Coracina","Coracina pectoralis","Graucalus pectoralis"
+"Passeriformes","CAMPEPHAGIDAE","Coracina","Coracina caesia","Ceblepyris caesia"
+"Passeriformes","DICRURIDAE","Dicrurus","Dicrurus adsimilis",NA
+"Passeriformes","ORIOLIDAE","Oriolus","Oriolus oriolus",NA
+"Passeriformes","ORIOLIDAE","Oriolus","Oriolus auratus",NA
+"Passeriformes","ORIOLIDAE","Oriolus","Oriolus larvatus",NA
+"Passeriformes","CORVIDAE","Corvus","Corvus capensis",NA
+"Passeriformes","CORVIDAE","Corvus","Corvus albus",NA
+"Passeriformes","CORVIDAE","Corvus","Corvus albicollis","Corvulus albicollis"
+"Passeriformes","PARIDAE","Parus","Parus niger",NA
+"Passeriformes","REMIZIDAE","Anthoscopus","Anthoscopus caroli",NA
+"Passeriformes","TIMALIIDAE","Turdoides","Turdoides jardineii",NA
+"Passeriformes","TIMALIIDAE","Turdoides","Turdoides bicolor",NA
+"Passeriformes","PYCNONOTIDAE","Pycnonotus","Pycnonotus tricolor","Pycnonotus barbatus"
+"Passeriformes","PYCNONOTIDAE","Pycnonotus","Pycnonotus tricolor","Turdus barbatus"
+"Passeriformes","PYCNONOTIDAE","Phyllastrephus","Phyllastrephus terrestris",NA
+"Passeriformes","PYCNONOTIDAE","Andropadus","Andropadus importunus","Turdus importunus"
+"Passeriformes","PYCNONOTIDAE","Chlorocichla","Chlorocichla flaviventris","Trichophorus flaviventris"
+"Passeriformes","PYCNONOTIDAE","Nicator","Nicator gularis",NA
+"Passeriformes","TURDIDAE","Turdus","Turdus libonyana","Turdus libonyanus"
+"Passeriformes","TURDIDAE","Psophocichla","Psophocichla litsipsirupa","Turdus litsipsirupa"
+"Passeriformes","TURDIDAE","Oenanthe","Oenanthe oenanthe",NA
+"Passeriformes","TURDIDAE","Oenanthe","Oenanthe monticola",NA
+"Passeriformes","TURDIDAE","Oenanthe","Oenanthe pileata","Motacilla pileata"
+"Passeriformes","TURDIDAE","Cercomela","Cercomela familiaris","Saxicola familiaris"
+"Passeriformes","TURDIDAE","Thamnolaea","Thamnolaea cinnamomeiventris",NA
+"Passeriformes","TURDIDAE","Myrmecocichla","Myrmecocichla arnoti","Saxicola arnotti"
+"Passeriformes","TURDIDAE","Myrmecocichla","Myrmecocichla arnoti","Thamnolaea arnoti"
+"Passeriformes","TURDIDAE","Saxicola","Saxicola torquata","Motacilla torquata"
+"Passeriformes","TURDIDAE","Cossypha","Cossypha heuglini",NA
+"Passeriformes","TURDIDAE","Cossypha","Cossypha natalensis",NA
+"Passeriformes","TURDIDAE","Cossypha","Cossypha caffra","Motacilla caffra"
+"Passeriformes","TURDIDAE","Cossypha","Cossypha humeralis","Dessonornis humeralis"
+"Passeriformes","TURDIDAE","Cichladusa","Cichladusa arquata",NA
+"Passeriformes","TURDIDAE","Pogonocichla","Pogonocichla stellata",NA
+"Passeriformes","TURDIDAE","Luscinia","Luscinia luscinia","Motacilla luscinia"
+"Passeriformes","TURDIDAE","Cercotrichas","Cercotrichas leucophrys","Erythropygia leucophrys"
+"Passeriformes","TURDIDAE","Cercotrichas","Cercotrichas leucophrys","Sylvia luecophrys"
+"Passeriformes","TURDIDAE","Erythropygia","Erythropygia signata","Tychaedon signata"
+"Passeriformes","TURDIDAE","Erythropygia","Erythropygia signata","Cossypha signata"
+"Passeriformes","TURDIDAE","Cercotrichas","Cercotrichas quadrivirgata","Erythropygia quadrivirgata"
+"Passeriformes","TURDIDAE","Cercotrichas","Cercotrichas quadrivirgata","Thamnobia quadrivirgata"
+"Passeriformes","SYLVIIDAE","Sylvia","Sylvia borin",NA
+"Passeriformes","SYLVIIDAE","Parisoma","Parisoma subcaeruleum",NA
+"Passeriformes","SYLVIIDAE","Hyliota","Hyliota australis",NA
+"Passeriformes","SYLVIIDAE","Hippolais","Hippolais icterina",NA
+"Passeriformes","SYLVIIDAE","Hippolais","Hippolais olivetorum",NA
+"Passeriformes","SYLVIIDAE","Acrocephalus","Acrocephalus arundinaceus",NA
+"Passeriformes","SYLVIIDAE","Acrocephalus","Acrocephalus baeticatus",NA
+"Passeriformes","SYLVIIDAE","Acrocephalus","Acrocephalus palustris",NA
+"Passeriformes","SYLVIIDAE","Acrocephalus","Acrocephalus schoenobaenus",NA
+"Passeriformes","SYLVIIDAE","Acrocephalus","Acrocephalus gracilirostris","Calamocichla gracilirostris"
+"Passeriformes","SYLVIIDAE","Chloropeta","Chloropeta natalensis",NA
+"Passeriformes","SYLVIIDAE","Bradypterus","Bradypterus baboecala",NA
+"Passeriformes","SYLVIIDAE","Schoenicola","Schoenicola brevirostris",NA
+"Passeriformes","SYLVIIDAE","Phylloscopus","Phylloscopus trochilus",NA
+"Passeriformes","SYLVIIDAE","Apalis","Apalis thoracica",NA
+"Passeriformes","SYLVIIDAE","Apalis","Apalis ruddi",NA
+"Passeriformes","SYLVIIDAE","Apalis","Apalis flavida",NA
+"Passeriformes","SYLVIIDAE","Sylvietta","Sylvietta rufescens",NA
+"Passeriformes","SYLVIIDAE","Eremomela","Eremomela icteropygialis",NA
+"Passeriformes","SYLVIIDAE","Eremomela","Eremomela scotops",NA
+"Passeriformes","SYLVIIDAE","Eremomela","Eremomela usticollis",NA
+"Passeriformes","SYLVIIDAE","Camaroptera","Camaroptera brevicaudata",NA
+"Passeriformes","SYLVIIDAE","Camaroptera","Camaroptera brachyura",NA
+"Passeriformes","SYLVIIDAE","Calamonastes","Calamonastes stierlingi","Camaroptera stierlingi"
+"Passeriformes","SYLVIIDAE","Cisticola","Cisticola juncidis",NA
+"Passeriformes","SYLVIIDAE","Cisticola","Cisticola aridula",NA
+"Passeriformes","SYLVIIDAE","Cisticola","Cisticola textrix",NA
+"Passeriformes","SYLVIIDAE","Cisticola","Cisticola ayresii",NA
+"Passeriformes","SYLVIIDAE","Cisticola","Cisticola chiniana",NA
+"Passeriformes","SYLVIIDAE","Cisticola","Cisticola erythrops",NA
+"Passeriformes","SYLVIIDAE","Cisticola","Cisticola galactotes",NA
+"Passeriformes","SYLVIIDAE","Cisticola","Cisticola tinniens",NA
+"Passeriformes","SYLVIIDAE","Cisticola","Cisticola natalensis",NA
+"Passeriformes","SYLVIIDAE","Cisticola","Cisticola aberrans",NA
+"Passeriformes","SYLVIIDAE","Cisticola","Cisticola fulvicapilla",NA
+"Passeriformes","SYLVIIDAE","Prinia","Prinia subflava",NA
+"Passeriformes","SYLVIIDAE","Prinia","Prinia flavicans",NA
+"Passeriformes","MUSCICAPIDAE","Muscicapa","Muscicapa striata",NA
+"Passeriformes","MUSCICAPIDAE","Muscicapa","Muscicapa adusta",NA
+"Passeriformes","MUSCICAPIDAE","Muscicapa","Muscicapa caerulescens",NA
+"Passeriformes","MUSCICAPIDAE","Myioparus","Myioparus plumbeus",NA
+"Passeriformes","MUSCICAPIDAE","Melaenornis","Melaenornis pammelaina",NA
+"Passeriformes","MUSCICAPIDAE","Bradornis","Bradornis mariquensis","Melaenornis mariquensis"
+"Passeriformes","MUSCICAPIDAE","Bradornis","Bradornis pallidus","Melaenornis pallidus"
+"Passeriformes","MUSCICAPIDAE","Sigelus","Sigelus silens",NA
+"Passeriformes","MUSCICAPIDAE","Batis","Batis capensis",NA
+"Passeriformes","MUSCICAPIDAE","Batis","Batis molitor",NA
+"Passeriformes","MUSCICAPIDAE","Platysteira","Platysteira peltata",NA
+"Passeriformes","MUSCICAPIDAE","Stenostira","Stenostira scita",NA
+"Passeriformes","MUSCICAPIDAE","Trochocercus","Trochocercus cyanomelas",NA
+"Passeriformes","MUSCICAPIDAE","Terpsiphone","Terpsiphone viridis",NA
+"Passeriformes","MOTACILLIDAE","Motacilla","Motacilla aguimp",NA
+"Passeriformes","MOTACILLIDAE","Motacilla","Motacilla clara",NA
+"Passeriformes","MOTACILLIDAE","Motacilla","Motacilla capensis",NA
+"Passeriformes","MOTACILLIDAE","Motacilla","Motacilla flava",NA
+"Passeriformes","MOTACILLIDAE","Anthus","Anthus cinnamomeus","Anthus novaeseelandiae"
+"Passeriformes","MOTACILLIDAE","Anthus","Anthus cinnamomeus","Alauda novae"
+"Passeriformes","MOTACILLIDAE","Anthus","Anthus similis",NA
+"Passeriformes","MOTACILLIDAE","Nicholsonse","Nicholsonse Koester",NA
+"Passeriformes","MOTACILLIDAE","Anthus","Anthus leucophrys",NA
+"Passeriformes","MOTACILLIDAE","Anthus","Anthus vaalensis",NA
+"Passeriformes","MOTACILLIDAE","Anthus","Anthus lineiventris",NA
+"Passeriformes","MOTACILLIDAE","Anthus","Anthus caffer",NA
+"Passeriformes","MOTACILLIDAE","Tmetothylacus","Tmetothylacus tenellus","Macronix tenellus"
+"Passeriformes","MOTACILLIDAE","Macronyx","Macronyx croceus","Alauda crocea"
+"Passeriformes","LANIIDAE","Lanius","Lanius minor",NA
+"Passeriformes","LANIIDAE","Lanius","Lanius collaris",NA
+"Passeriformes","LANIIDAE","Lanius","Lanius collurio",NA
+"Passeriformes","LANIIDAE","Corvinella","Corvinella melanoleuca","Urolestes melanoleucus"
+"Passeriformes","MALACONOTIDAE","Laniarius","Laniarius ferrugineus",NA
+"Passeriformes","MALACONOTIDAE","Laniarius","Laniarius atrococcineus",NA
+"Passeriformes","MALACONOTIDAE","Dryoscopus","Dryoscopus cubla",NA
+"Passeriformes","MALACONOTIDAE","Nilaus","Nilaus afer",NA
+"Passeriformes","MALACONOTIDAE","Tchagra","Tchagra australis",NA
+"Passeriformes","MALACONOTIDAE","Tchagra","Tchagra senegalus",NA
+"Passeriformes","MALACONOTIDAE","Telophorus","Telophorus viridis","Telophorus quadricolor"
+"Passeriformes","MALACONOTIDAE","Telophorus","Telophorus sulfureopectus","Chlorophoneus sulphureopectus"
+"Passeriformes","MALACONOTIDAE","Telophorus","Telophorus olivaceus","Chlorophoneus olivaceus"
+"Passeriformes","MALACONOTIDAE","Malaconotus","Malaconotus blanchoti","Malaconotus hypopyrrhus"
+"Passeriformes","PRIONOPIDAE","Prionops","Prionops plumatus","Prionops plumata"
+"Passeriformes","PRIONOPIDAE","Prionops","Prionops retzii",NA
+"Passeriformes","PRIONOPIDAE","Eurocephalus","Eurocephalus anguitimens",NA
+"Passeriformes","STURNIDAE","Creatophora","Creatophora cinerea",NA
+"Passeriformes","STURNIDAE","Cinnyricinclus","Cinnyricinclus leucogaster",NA
+"Passeriformes","STURNIDAE","Lamprotornis","Lamprotornis australis",NA
+"Passeriformes","STURNIDAE","Lamprotornis","Lamprotornis mevesii",NA
+"Passeriformes","STURNIDAE","Lamprotornis","Lamprotornis nitens",NA
+"Passeriformes","STURNIDAE","Lamprotornis","Lamprotornis chalybaeus",NA
+"Passeriformes","STURNIDAE","Lamprotornis","Lamprotornis chloropterus",NA
+"Passeriformes","STURNIDAE","Lamprotornis","Lamprotornis corruscus",NA
+"Passeriformes","STURNIDAE","Onychognathus","Onychognathus morio",NA
+"Passeriformes","BUPHAGIDAE","Buphagus","Buphagus africanus",NA
+"Passeriformes","BUPHAGIDAE","Buphagus","Buphagus erythrorhynchus",NA
+"Passeriformes","PROMEROPIDAE","Promerops","Promerops gurneyi",NA
+"Passeriformes","NECTARINIIDAE","Cinnyris","Cinnyris mariquensis","Nectarinia mariquensis"
+"Passeriformes","NECTARINIIDAE","Nectarinia","Nectarinia bifasciata","Cinnyris bifasciatus"
+"Passeriformes","NECTARINIIDAE","Nectarinia","Nectarinia venusta","Cinnyris venustus"
+"Passeriformes","NECTARINIIDAE","Cinnyris","Cinnyris talatala","Nectarinia talatala"
+"Passeriformes","NECTARINIIDAE","Nectarinia","Nectarinia senegalensis","Chalcomitra senegalensis"
+"Passeriformes","NECTARINIIDAE","Nectarinia","Nectarinia amethystina","Chalcomitra amethystina"
+"Passeriformes","NECTARINIIDAE","Hedydipna","Hedydipna collaris","Anthreptes collaris"
+"Passeriformes","NECTARINIIDAE","Anthreptes","Anthreptes reichenowi",NA
+"Passeriformes","ZOSTEROPIDAE","Zosterops","Zosterops virens","Zosterops pallidus"
+"Passeriformes","ZOSTEROPIDAE","Zosterops","Zosterops senegalensis",NA
+"Passeriformes","PLOCEIDAE","Bubalornis","Bubalornis niger","Bubalornis albirostris"
+"Passeriformes","PLOCEIDAE","Plocepasser","Plocepasser mahali",NA
+"Passeriformes","PLOCEIDAE","Passer","Passer domesticus",NA
+"Passeriformes","PLOCEIDAE","Passer","Passer melanurus",NA
+"Passeriformes","PLOCEIDAE","Passer","Passer diffusus","Passer griseus"
+"Passeriformes","PLOCEIDAE","Petronia","Petronia superciliaris",NA
+"Passeriformes","PLOCEIDAE","Amblyospiza","Amblyospiza albifrons",NA
+"Passeriformes","PLOCEIDAE","Ploceus","Ploceus ocularis","Hyphanturgus ocularis"
+"Passeriformes","PLOCEIDAE","Ploceus","Ploceus cucullatus",NA
+"Passeriformes","PLOCEIDAE","Ploceus","Ploceus velatus",NA
+"Passeriformes","PLOCEIDAE","Ploceus","Ploceus intermedius",NA
+"Passeriformes","PLOCEIDAE","Ploceus","Ploceus xanthops",NA
+"Passeriformes","PLOCEIDAE","Ploceus","Ploceus subaureus",NA
+"Passeriformes","PLOCEIDAE","Anaplectes","Anaplectes melanotis","Anaplectes rubriceps"
+"Passeriformes","PLOCEIDAE","Anomalospiza","Anomalospiza imberbis",NA
+"Passeriformes","PLOCEIDAE","Quelea","Quelea quelea",NA
+"Passeriformes","PLOCEIDAE","Euplectes","Euplectes orix",NA
+"Passeriformes","PLOCEIDAE","Euplectes","Euplectes afer",NA
+"Passeriformes","PLOCEIDAE","Euplectes","Euplectes axillaris",NA
+"Passeriformes","PLOCEIDAE","Euplectes","Euplectes albonotatus",NA
+"Passeriformes","PLOCEIDAE","Euplectes","Euplectes ardens",NA
+"Passeriformes","ESTRILDIDAE","Pytilia","Pytilia melba",NA
+"Passeriformes","ESTRILDIDAE","Mandingoa","Mandingoa nitidula","Hypargos nitidulus"
+"Passeriformes","ESTRILDIDAE","Hypargos","Hypargos margaritatus",NA
+"Passeriformes","ESTRILDIDAE","Hypargos","Hypargos niveoguttatus",NA
+"Passeriformes","ESTRILDIDAE","Lagonosticta","Lagonosticta rubricata",NA
+"Passeriformes","ESTRILDIDAE","Lagonosticta","Lagonosticta rhodopareira",NA
+"Passeriformes","ESTRILDIDAE","Lagonosticta","Lagonosticta senegala",NA
+"Passeriformes","ESTRILDIDAE","Uraeginthus","Uraeginthus angolensis",NA
+"Passeriformes","ESTRILDIDAE","Granatina","Granatina granatina","Uraeginthus granatinus"
+"Passeriformes","ESTRILDIDAE","Estrilda","Estrilda astrild",NA
+"Passeriformes","ESTRILDIDAE","Estrilda","Estrilda perreini",NA
+"Passeriformes","ESTRILDIDAE","Estrilda","Estrilda melanotis","Coccopygia melanotis"
+"Passeriformes","ESTRILDIDAE","Ortygospiza","Ortygospiza atricollis","Ortygospiza fuscocrissa"
+"Passeriformes","ESTRILDIDAE","Sporaeginthus","Sporaeginthus subflavus","Amandava subflava"
+"Passeriformes","ESTRILDIDAE","Amadina","Amadina fasciata",NA
+"Passeriformes","ESTRILDIDAE","Spermestes","Spermestes cucullatus","Lonchura cucullata"
+"Passeriformes","ESTRILDIDAE","Spermestes","Spermestes bicolor","Lonchura bicolor"
+"Passeriformes","VIDUIDAE","Vidua","Vidua macroura",NA
+"Passeriformes","VIDUIDAE","Vidua","Vidua regia",NA
+"Passeriformes","VIDUIDAE","Vidua","Vidua paradisaea",NA
+"Passeriformes","VIDUIDAE","Vidua","Vidua funerea",NA
+"Passeriformes","VIDUIDAE","Vidua","Vidua purpurascens",NA
+"Passeriformes","VIDUIDAE","Vidua","Vidua chalybeata",NA
+"Passeriformes","FRINGILLIDAE","Crithagra","Crithagra mozambica",NA
+"Passeriformes","FRINGILLIDAE","Serinus","Serinus atrogularis",NA
+"Passeriformes","FRINGILLIDAE","Serinus","Serinus canicollis",NA
+"Passeriformes","FRINGILLIDAE","Crithagra","Crithagra sulphurata","Serinus sulphuratus"
+"Passeriformes","FRINGILLIDAE","Crithagra","Crithagra gularis","Poliospiza gularis"
+"Passeriformes","FRINGILLIDAE","Emberiza","Emberiza flaviventris",NA
+"Passeriformes","FRINGILLIDAE","Emberiza","Emberiza capensis","Fringillaria capensis"
+"Passeriformes","FRINGILLIDAE","Emberiza","Emberiza tahapisi",NA
+"Passeriformes","FRINGILLIDAE","Emberiza","Emberiza impetuani","Fringillaria impetuani"

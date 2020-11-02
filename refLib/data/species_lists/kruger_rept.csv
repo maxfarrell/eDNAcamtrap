@@ -1,0 +1,130 @@
+"order","family","genus","binomial","synonym"
+"Testudines","TESTUDINIDAE","Kinixys","Kinixys natalensis",NA
+"Testudines","TESTUDINIDAE","Kinixys","Kinixys spekii","Kinixys belliana"
+"Testudines","TESTUDINIDAE","Stigmochelus","Stigmochelus pardalis","Geochelone pardalis"
+"Testudines","TESTUDINIDAE","Stigmochelus","Stigmochelus pardalis","Geochelone pardalis"
+"Testudines","PELOMEDUSIDAE","Pelomedusa","Pelomedusa subrufa",NA
+"Testudines","PELOMEDUSIDAE","Pelusios","Pelusios sinuatus",NA
+"Testudines","PELOMEDUSIDAE","Pelusios","Pelusios subniger",NA
+"Crocodilia","CROCODYLIDAE","Crocodylus","Crocodylus niloticus",NA
+"Squamata","GEKKONIDAE","Afroedura","Afroedura haackei","Afroedura pondolia"
+"Squamata","GEKKONIDAE","Afroedura","Afroedura langi","Afroedura langi"
+"Squamata","GEKKONIDAE","Afroedura","Afroedura langi","Afroedura pondolia"
+"Squamata","GEKKONIDAE","Afroedura","Afroedura marleyi",NA
+"Squamata","GEKKONIDAE","Afroedura","Afroedura pienaari",NA
+"Squamata","GEKKONIDAE","Afroedura","Afroedura transvaalica",NA
+"Squamata","GEKKONIDAE","Chondrodactylus","Chondrodactylus turneri","Pachydactylus bibronii"
+"Squamata","GEKKONIDAE","Hemidactylus","Hemidactylus mabouia",NA
+"Squamata","GEKKONIDAE","Homopholis","Homopholis wahlbergii",NA
+"Squamata","GEKKONIDAE","Lygodactylus","Lygodactylus capensis",NA
+"Squamata","GEKKONIDAE","Lygodactylus","Lygodactylus stevensoni",NA
+"Squamata","GEKKONIDAE","Pachydactylus","Pachydactylus affinis","Pachydactylus capensis"
+"Squamata","GEKKONIDAE","Pachydactylus","Pachydactylus punctatus",NA
+"Squamata","GEKKONIDAE","Pachydactylus","Pachydactylus vansoni","Pachydactylus capensis"
+"Squamata","AGAMIDAE","Acanthocercus","Acanthocercus atricollis","Agama atricollis"
+"Squamata","AGAMIDAE","Agama","Agama aculeata",NA
+"Squamata","AGAMIDAE","Agama","Agama armata","Agama aculeata"
+"Squamata","CHAMAELEONIDAE","Chamaeleo","Chamaeleo dilepis",NA
+"Squamata","SCINCIDAE","Acontias","Acontias plumbeus",NA
+"Squamata","SCINCIDAE","Acontias","Acontias aurantiacus",NA
+"Squamata","SCINCIDAE","Acontias","Acontias cregoi",NA
+"Squamata","SCINCIDAE","Afroablepharus","Afroablepharus macuicollis",NA
+"Squamata","SCINCIDAE","Afroablepharus","Afroablepharus wahlbergi","Panaspis wahlbergii"
+"Squamata","SCINCIDAE","Mochlus","Mochlus sundevali","Lygosoma sundevallii"
+"Squamata","SCINCIDAE","Scelotes","Scelotes bidigittatus",NA
+"Squamata","SCINCIDAE","Scelotes","Scelotes limpopoensis","Scelotes limpopoensis"
+"Squamata","SCINCIDAE","Scelotes","Scelotes mossambicus","Scelotes brevipes"
+"Squamata","SCINCIDAE","Trachylepis","Trachylepis depressa","Mabuya homalocephala"
+"Squamata","SCINCIDAE","Trachylepis","Trachylepis margaritifer","Mabuya quinquetaeniata"
+"Squamata","SCINCIDAE","Trachylepis","Trachylepis striata","Mabuya striata"
+"Squamata","SCINCIDAE","Trachylepis","Trachylepis varia","Mabuya varia"
+"Squamata","SCINCIDAE","Trachylepis","Trachylepis varia","Mabuya varia"
+"Squamata","GERRHOSAURIDAE","Broadleysaurus","Broadleysaurus major",NA
+"Squamata","GERRHOSAURIDAE","Matobosaurus","Matobosaurus validus","Gerrhosaurus validus"
+"Squamata","GERRHOSAURIDAE","Gerrhosaurus","Gerrhosaurus flavigularis",NA
+"Squamata","GERRHOSAURIDAE","Gerrhosaurus","Gerrhosaurus nigrolineatus",NA
+"Squamata","CORDYLIDAE","Cordylus","Cordylus jonesii","Cordylus tropidosternum"
+"Squamata","CORDYLIDAE","Cordylus","Cordylus vittifer",NA
+"Squamata","CORDYLIDAE","Platysaurus","Platysaurus intermedius",NA
+"Squamata","CORDYLIDAE","Platysaurus","Platysaurus intermedius",NA
+"Squamata","CORDYLIDAE","Platysaurus","Platysaurus intermedius",NA
+"Squamata","CORDYLIDAE","Smaug","Smaug barbetonensis",NA
+"Squamata","CORDYLIDAE","Smaug","Smaug depressus","Cordylus warreni"
+"Squamata","CORDYLIDAE","Smaug","Smaug depressus","Cordylus warreni"
+"Squamata","CORDYLIDAE","Smaug","Smaug vandami","Cordylus vandami"
+"Squamata","CORDYLIDAE","Smaug","Smaug vandami","Cordylus warreni"
+"Squamata","CORDYLIDAE","Smaug","Smaug warreni","Cordylus warreni"
+"Squamata","LACERTIDAE","Heliobolus","Heliobolus lugubris","Eremias Lampreremias"
+"Squamata","LACERTIDAE","Meroles","Meroles squamaulosa","Ichnotropis squamulosa"
+"Squamata","LACERTIDAE","Nucras","Nucras caesicaudata",NA
+"Squamata","LACERTIDAE","Nucras","Nucras holubi","Nucras taeniolata"
+"Squamata","LACERTIDAE","Nucras","Nucras holubi","Nucras taeniolata"
+"Squamata","LACERTIDAE","Nucras","Nucras intertexta",NA
+"Squamata","LACERTIDAE","Nucras","Nucras ornata","Nucras taeniolata"
+"Squamata","VARANIDAE","Varanus","Varanus albigularis","Varanus exanthematicus"
+"Squamata","VARANIDAE","Varanus","Varanus niloticus",NA
+"Squamata","AMPHISBAENIDAE","Chirindia","Chirindia langi","Chirindia langi"
+"Squamata","AMPHISBAENIDAE","Monopeltis","Monopeltis decosteri","Monopeltis capensis"
+"Squamata","AMPHISBAENIDAE","Monopeltis","Monopeltis leonhardi",NA
+"Squamata","AMPHISBAENIDAE","Monopeltis","Monopeltis sphenorhynchus",NA
+"Squamata","AMPHISBAENIDAE","Zygaspis","Zygaspis quadrifrons",NA
+"Squamata","AMPHISBAENIDAE","Zygaspis","Zygaspis violacea",NA
+"Squamata","TYPHLOPIDAE","Afrotypholops","Afrotypholops schlegelii","Typhlops schlegelii"
+"Squamata","TYPHLOPIDAE","Afrotypholops","Afrotypholops schlegelii","Rhinotyphlops schlegelii"
+"Squamata","TYPHLOPIDAE","Rhinotyphlops","Rhinotyphlops lalandei","Typhlops lalandei"
+"Squamata","LEPTOTYPHLOPIDAE","Leptotyphlops","Leptotyphlops distanti",NA
+"Squamata","LEPTOTYPHLOPIDAE","Leptotyphlops","Leptotyphlops incognitus","Leptotyphlops conjunctus"
+"Squamata","LEPTOTYPHLOPIDAE","Leptotyphlops","Leptotyphlops scutifrons",NA
+"Squamata","LEPTOTYPHLOPIDAE","Leptotyphlops","Leptotyphlops scutifrons",NA
+"Squamata","LEPTOTYPHLOPIDAE","Myriopholis","Myriopholis longicauda","Leptotyphlops longicaudus"
+"Squamata","PYTHONIDAE","Python","Python natalensis",NA
+"Squamata","LAMPROPHIIDAE","Amblyodipsas","Amblyodipsas concolor",NA
+"Squamata","LAMPROPHIIDAE","Amblyodipsas","Amblyodipsas microphthalma","Amblyodipsas microphthalma"
+"Squamata","LAMPROPHIIDAE","Amblyodipsas","Amblyodipsas microphthalma","Amblyodipsas microphthalma"
+"Squamata","LAMPROPHIIDAE","Amblyodipsas","Amblyodipsas polylepis",NA
+"Squamata","LAMPROPHIIDAE","Aparallactus","Aparallactus capensis",NA
+"Squamata","LAMPROPHIIDAE","Aparallactus","Aparallactus lunulatus",NA
+"Squamata","LAMPROPHIIDAE","Atractaspis","Atractaspis bibronii",NA
+"Squamata","LAMPROPHIIDAE","Boaedon","Boaedon capensis","Lamprophis capensis"
+"Squamata","LAMPROPHIIDAE","Boaedon","Boaedon capensis","Lamprophis fuliginosus"
+"Squamata","LAMPROPHIIDAE","Boaedon","Boaedon capensis","Lamprophis fuliginosus"
+"Squamata","LAMPROPHIIDAE","Duberria","Duberria lutrix",NA
+"Squamata","LAMPROPHIIDAE","Gonionotophis","Gonionotophis capensis","Mehelya capensis"
+"Squamata","LAMPROPHIIDAE","Gonionotophis","Gonionotophis nyassae","Mehelya nyassae"
+"Squamata","LAMPROPHIIDAE","Hemirhagerrhis","Hemirhagerrhis nototaenia",NA
+"Squamata","LAMPROPHIIDAE","Lamprophis","Lamprophis guttatus",NA
+"Squamata","LAMPROPHIIDAE","Lycodonomorphus","Lycodonomorphus obscuriventris","Lycodonomorphus whytii"
+"Squamata","LAMPROPHIIDAE","Lycodonomorphus","Lycodonomorphus rufulus",NA
+"Squamata","LAMPROPHIIDAE","Lycophidion","Lycophidion capense",NA
+"Squamata","LAMPROPHIIDAE","Lycophidion","Lycophidion variegatum",NA
+"Squamata","LAMPROPHIIDAE","Prosymna","Prosymna bivittata",NA
+"Squamata","LAMPROPHIIDAE","Prosymna","Prosymna stuhlmannii","Prosymna ambigua"
+"Squamata","LAMPROPHIIDAE","Prosymna","Prosymna sundevalii","Prosymna sundevallii"
+"Squamata","LAMPROPHIIDAE","Psammophis","Psammophis angolensis",NA
+"Squamata","LAMPROPHIIDAE","Psammophis","Psammophis mossambicus","Psammophis phillipsii"
+"Squamata","LAMPROPHIIDAE","Psammophis","Psammophis subtaeniatus",NA
+"Squamata","LAMPROPHIIDAE","Psammophis","Psammophis trinasalis","Psammophis leightoni"
+"Squamata","LAMPROPHIIDAE","Psammophylax","Psammophylax tritaeniatus",NA
+"Squamata","LAMPROPHIIDAE","Pseudaspis","Pseudaspis cana",NA
+"Squamata","LAMPROPHIIDAE","Rhamphiophis","Rhamphiophis rostratus","Rhamphiophis oxyrhynchus"
+"Squamata","LAMPROPHIIDAE","Xenocalamus","Xenocalamus bicolor","Xenocalamus lineatus"
+"Squamata","COLUBRIDAE","Crotaphopeltis","Crotaphopeltis hotamboeia",NA
+"Squamata","COLUBRIDAE","Dasypeltis","Dasypeltis scabra",NA
+"Squamata","COLUBRIDAE","Dipsadoboa","Dipsadoboa aulica","Dipsadoboa aulica"
+"Squamata","COLUBRIDAE","Dispholidus","Dispholidus typus",NA
+"Squamata","COLUBRIDAE","Meizodon","Meizodon semiornatus",NA
+"Squamata","COLUBRIDAE","Philothamnus","Philothamnus hoplogaster",NA
+"Squamata","COLUBRIDAE","Philothamnus","Philothamnus natalensis",NA
+"Squamata","COLUBRIDAE","Philothamnus","Philothamnus semivariegatus",NA
+"Squamata","COLUBRIDAE","Telescopus","Telescopus semiannulatus",NA
+"Squamata","COLUBRIDAE","Thelotornis","Thelotornis capensis",NA
+"Squamata","ELAPIDAE","Aspidelaps","Aspidelaps scutatus",NA
+"Squamata","ELAPIDAE","Dendroaspis","Dendroaspis polylepis",NA
+"Squamata","ELAPIDAE","Elapsoidea","Elapsoidea boulengeri","Elapsoidea semiannulata"
+"Squamata","ELAPIDAE","Elapsoidea","Elapsoidea sundevallii",NA
+"Squamata","ELAPIDAE","Naja","Naja annulifera","Naja haje"
+"Squamata","ELAPIDAE","Naja","Naja melanoleuca",NA
+"Squamata","ELAPIDAE","Naja","Naja mossambica",NA
+"Squamata","VIPERIDAE","Bitis","Bitis arietans",NA
+"Squamata","VIPERIDAE","Bitis","Bitis caudalis",NA
+"Squamata","VIPERIDAE","Causus","Causus defilippii",NA

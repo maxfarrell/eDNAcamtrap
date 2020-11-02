@@ -1,0 +1,147 @@
+"order","family","genus","binomial","synonym"
+"INSECTIVORA","SORICIDAE","Crocidura","Crocidura cyanea",NA
+"INSECTIVORA","SORICIDAE","Crocidura","Crocidura fuscomurina",NA
+"INSECTIVORA","SORICIDAE","Crocidura","Crocidura hirta",NA
+"INSECTIVORA","SORICIDAE","Crocidura","Crocidura mariquensis",NA
+"INSECTIVORA","SORICIDAE","Crocidura","Crocidura silacea",NA
+"INSECTIVORA","SORICIDAE","Suncus","Suncus lixus",NA
+"INSECTIVORA","ERINACEIDAE","Atelerix","Atelerix frontalis",NA
+"INSECTIVORA","CHRYSOCHLORIDAE","Calcochloris","Calcochloris obtrusirostris",NA
+"INSECTIVORA","CHRYSOCHLORIDAE","Neamblysomus","Neamblysomus julianae","Amblysomus julianae"
+"CHIROPTERA","PTEROPODIDAE","Epomophorus","Epomophorus crypturus",NA
+"CHIROPTERA","PTEROPODIDAE","Epomophorus","Epomophorus wahlbergi",NA
+"CHIROPTERA","PTEROPODIDAE","Rousettus","Rousettus aegyptiacus",NA
+"CHIROPTERA","PTEROPODIDAE","Taphozous","Taphozous mauritianus",NA
+"CHIROPTERA","NYCTERIDAE","Nycteris","Nycteris thebaica",NA
+"CHIROPTERA","NYCTERIDAE","Nycteris","Nycteris woodi",NA
+"CHIROPTERA","RHINOLOPHIDAE","Rhinolophus","Rhinolophus blasii",NA
+"CHIROPTERA","RHINOLOPHIDAE","Rhinolophus","Rhinolophus clivosus",NA
+"CHIROPTERA","RHINOLOPHIDAE","Rhinolophus","Rhinolophus darlingi",NA
+"CHIROPTERA","RHINOLOPHIDAE","Rhinolophus","Rhinolophus fumigatus",NA
+"CHIROPTERA","RHINOLOPHIDAE","Rhinolophus","Rhinolophus hildebrandtii",NA
+"CHIROPTERA","RHINOLOPHIDAE","Rhinolophus","Rhinolophus landeri",NA
+"CHIROPTERA","RHINOLOPHIDAE","Rhinolophus","Rhinolophus simulator",NA
+"CHIROPTERA","RHINOLOPHIDAE","Rhinolophus","Rhinolophus swinnyi",NA
+"CHIROPTERA","HIPPOSIDERIDAE","Hipposideros","Hipposideros caffer",NA
+"CHIROPTERA","HIPPOSIDERIDAE","Hipposideros","Hipposideros commersoni",NA
+"CHIROPTERA","VESPERTILIONIDAE","Miniopterus","Miniopterus schreibersii",NA
+"CHIROPTERA","VESPERTILIONIDAE","Myotis","Myotis bocagii",NA
+"CHIROPTERA","VESPERTILIONIDAE","Myotis","Myotis tricolor",NA
+"CHIROPTERA","VESPERTILIONIDAE","Myotis","Myotis welwitschii",NA
+"CHIROPTERA","VESPERTILIONIDAE","Pipistrellus","Pipistrellus anchietai",NA
+"CHIROPTERA","VESPERTILIONIDAE","Pipistrellus","Pipistrellus hesperidus","Pipistrellus kuhlii"
+"CHIROPTERA","VESPERTILIONIDAE","Pipistrellus","Pipistrellus nanus","Neoromicia nanus"
+"CHIROPTERA","VESPERTILIONIDAE","Pipistrellus","Pipistrellus rueppellii",NA
+"CHIROPTERA","VESPERTILIONIDAE","Pipistrellus","Pipistrellus rusticus",NA
+"CHIROPTERA","VESPERTILIONIDAE","Glauconycteris","Glauconycteris variegatus","Chalinolobus variegatus"
+"CHIROPTERA","VESPERTILIONIDAE","Laephotis","Laephotis botswanae",NA
+"CHIROPTERA","VESPERTILIONIDAE","Pipistrellus","Pipistrellus capensis","Eptesicus capensis"
+"CHIROPTERA","VESPERTILIONIDAE","Pipistrellus","Pipistrellus capensis","Neoromicia capensis"
+"CHIROPTERA","VESPERTILIONIDAE","Eptesicus","Eptesicus hottentotus",NA
+"CHIROPTERA","VESPERTILIONIDAE","Pipistrellus","Pipistrellus melckorum","Eptesicus melckorum"
+"CHIROPTERA","VESPERTILIONIDAE","Pipistrellus","Pipistrellus zuluensis","Eptesicus zuluensis"
+"CHIROPTERA","VESPERTILIONIDAE","Scotophilus","Scotophilus viridis","Scotophilus borbonicus"
+"CHIROPTERA","VESPERTILIONIDAE","Scotophilus","Scotophilus dinganii",NA
+"CHIROPTERA","VESPERTILIONIDAE","Nycticeinops","Nycticeinops schlieffeni","Nycticeius schlieffenii"
+"CHIROPTERA","VESPERTILIONIDAE","Kerivoula","Kerivoula argentata",NA
+"CHIROPTERA","VESPERTILIONIDAE","Kerivoula","Kerivoula lanosa",NA
+"CHIROPTERA","MOLOSSIDAE","Chaerephon","Chaerephon ansorgei","Tadarida ansorgei"
+"CHIROPTERA","MOLOSSIDAE","Chaerephon","Chaerephon pumila","Tadarida pumila"
+"CHIROPTERA","MOLOSSIDAE","Tadarida","Tadarida condylura","Mops condylus"
+"CHIROPTERA","MOLOSSIDAE","Mops","Mops midas","Tadarida midas"
+"PRIMATES","GALAGIDAE","Otolemur","Otolemur crassicaudatus",NA
+"PRIMATES","GALAGIDAE","Galago","Galago moholi",NA
+"PRIMATES","CERCOPITHECIDAE","Papio","Papio ursinus",NA
+"PRIMATES","CERCOPITHECIDAE","Chlorocebus","Chlorocebus pygerythrus","Chlorocebus aethiops"
+"PRIMATES","CERCOPITHECIDAE","Chlorocebus","Chlorocebus pygerythrus","Cercopithecus aethiops"
+"PRIMATES","CERCOPITHECIDAE","Cercopithecus","Cercopithecus mitis",NA
+"CARNIVORA","CANIDAE","Otocyon","Otocyon megalotis",NA
+"CARNIVORA","CANIDAE","Lycaon","Lycaon pictus",NA
+"CARNIVORA","CANIDAE","Canis","Canis adustus",NA
+"CARNIVORA","CANIDAE","Canis","Canis mesomelas",NA
+"CARNIVORA","MUSTELIDAE","Aonyx","Aonyx capensis",NA
+"CARNIVORA","MUSTELIDAE","Mellivora","Mellivora capensis",NA
+"CARNIVORA","MUSTELIDAE","Ictonyx","Ictonyx striatus",NA
+"CARNIVORA","VIVERRIDAE","Civettictis","Civettictis civetta",NA
+"CARNIVORA","VIVERRIDAE","Genetta","Genetta genetta",NA
+"CARNIVORA","VIVERRIDAE","Genetta","Genetta tigrina",NA
+"CARNIVORA","HERPESTIDAE","Paracynictis","Paracynictis selousi",NA
+"CARNIVORA","HERPESTIDAE","Herpestes","Herpestes ichneumon",NA
+"CARNIVORA","HERPESTIDAE","Herpestes","Herpestes sanguineus","Galerella sanguinea"
+"CARNIVORA","HERPESTIDAE","Rhynchogale","Rhynchogale melleri",NA
+"CARNIVORA","HERPESTIDAE","Ichneumia","Ichneumia albicauda",NA
+"CARNIVORA","HERPESTIDAE","Atilax","Atilax paludinosus",NA
+"CARNIVORA","HERPESTIDAE","Mungos","Mungos mungo",NA
+"CARNIVORA","HERPESTIDAE","Helogale","Helogale parvula",NA
+"CARNIVORA","HYAENIDAE","Proteles","Proteles cristata",NA
+"CARNIVORA","HYAENIDAE","Hyaena","Hyaena brunnea",NA
+"CARNIVORA","HYAENIDAE","Crocuta","Crocuta crocuta",NA
+"CARNIVORA","FELIDAE","Acinonyx","Acinonyx jubatus",NA
+"CARNIVORA","FELIDAE","Panthera","Panthera pardus",NA
+"CARNIVORA","FELIDAE","Panthera","Panthera leo",NA
+"CARNIVORA","FELIDAE","Caracal","Caracal caracal","Felis caracal"
+"CARNIVORA","FELIDAE","Felis","Felis silvestris","Felis lybica"
+"CARNIVORA","FELIDAE","Leptailurus","Leptailurus serval","Felis serval"
+"PROBOSCIDEA","ELEPHANTIDAE","Loxodonta","Loxodonta africana",NA
+"PERISSODACTYLA","RHINOCEROTIDAE","Ceratotherium","Ceratotherium simum",NA
+"PERISSODACTYLA","RHINOCEROTIDAE","Diceros","Diceros bicornis",NA
+"PERISSODACTYLA","EQUIDAE","Equus","Equus quagga","Equus burchelli"
+"HYRACOIDEA","PROCAVIIDAE","Procavia","Procavia capensis",NA
+"HYRACOIDEA","PROCAVIIDAE","Heterohyrax","Heterohyrax brucei",NA
+"TUBULIDENTATA","ORYCTEROPODIDAE","Orycteropus","Orycteropus afer",NA
+"CETARTIODACTYLA","SUIDAE","Phacochoerus","Phacochoerus africanus",NA
+"CETARTIODACTYLA","SUIDAE","Potamochoerus","Potamochoerus larvatus",NA
+"CETARTIODACTYLA","HIPPOPOTAMIDAE","Hippopotamus","Hippopotamus amphibius",NA
+"CETARTIODACTYLA","GIRAFFIDAE","Giraffa","Giraffa camelopardalis",NA
+"CETARTIODACTYLA","BOVIDAE","Connochaetes","Connochaetes taurinus",NA
+"CETARTIODACTYLA","BOVIDAE","Sigmoceros","Sigmoceros lichtensteinii",NA
+"CETARTIODACTYLA","BOVIDAE","Damaliscus","Damaliscus lunatus",NA
+"CETARTIODACTYLA","BOVIDAE","Cephalophus","Cephalophus natalensis",NA
+"CETARTIODACTYLA","BOVIDAE","Sylvicapra","Sylvicapra grimmia",NA
+"CETARTIODACTYLA","BOVIDAE","Oreotragus","Oreotragus oreotragus",NA
+"CETARTIODACTYLA","BOVIDAE","Ourebia","Ourebia ourebi",NA
+"CETARTIODACTYLA","BOVIDAE","Raphicerus","Raphicerus campestris",NA
+"CETARTIODACTYLA","BOVIDAE","Raphicerus","Raphicerus sharpei",NA
+"CETARTIODACTYLA","BOVIDAE","Neotragus","Neotragus moschatus",NA
+"CETARTIODACTYLA","BOVIDAE","Aepyceros","Aepyceros melampus",NA
+"CETARTIODACTYLA","BOVIDAE","Pelea","Pelea capreolus",NA
+"CETARTIODACTYLA","BOVIDAE","Hippotragus","Hippotragus equinus",NA
+"CETARTIODACTYLA","BOVIDAE","Hippotragus","Hippotragus niger",NA
+"CETARTIODACTYLA","BOVIDAE","Syncerus","Syncerus caffer",NA
+"CETARTIODACTYLA","BOVIDAE","Tragelaphus","Tragelaphus angasii",NA
+"CETARTIODACTYLA","BOVIDAE","Tragelaphus","Tragelaphus scriptus",NA
+"CETARTIODACTYLA","BOVIDAE","Tragelaphus","Tragelaphus strepsiceros",NA
+"CETARTIODACTYLA","BOVIDAE","Tragelaphus","Tragelaphus oryx","Taurotragus oryx"
+"CETARTIODACTYLA","BOVIDAE","Redunca","Redunca arundinum",NA
+"CETARTIODACTYLA","BOVIDAE","Redunca","Redunca fulvorufula",NA
+"CETARTIODACTYLA","BOVIDAE","Kobus","Kobus ellipsiprymnus",NA
+"PHOLIDOTA","MANIDAE","Smutsia","Smutsia temminckii","Manis temminckii"
+"RODENTIA","SCIURIDAE","Paraxerus","Paraxerus cepapi",NA
+"RODENTIA","PEDETIDAE","Pedetes","Pedetes capensis",NA
+"RODENTIA","HYSTRICIDAE","Hystris","Hystris africaeaustralis",NA
+"RODENTIA","THRYONOMYIDAE","Thryonomys","Thryonomys swinderianus",NA
+"RODENTIA","BATHYERGIDAE","Cryptomys","Cryptomys hottentotus",NA
+"RODENTIA","MURIDAE","Otomys","Otomys angoniensis",NA
+"RODENTIA","MURIDAE","Gerbilliscus","Gerbilliscus leucogaster","Tatera leucogaster"
+"RODENTIA","MURIDAE","Cricetomys","Cricetomys gambianus",NA
+"RODENTIA","MURIDAE","Saccostomus","Saccostomus campestris",NA
+"RODENTIA","MURIDAE","Dendromus","Dendromus melanotis",NA
+"RODENTIA","MURIDAE","Dendromus","Dendromus mystacalis",NA
+"RODENTIA","MURIDAE","Steatomys","Steatomys pratensis",NA
+"RODENTIA","MURIDAE","Acomys","Acomys spinosissimus",NA
+"RODENTIA","MURIDAE","Lemniscomys","Lemniscomys rosalia",NA
+"RODENTIA","MURIDAE","Dasymys","Dasymys incomtus",NA
+"RODENTIA","MURIDAE","Grammomys","Grammomys dolichurus",NA
+"RODENTIA","MURIDAE","Mus","Mus minutoides",NA
+"RODENTIA","MURIDAE","Mastomys","Mastomys natalensis",NA
+"RODENTIA","MURIDAE","Mastomys","Mastomys coucha",NA
+"RODENTIA","MURIDAE","Thallomys","Thallomys paedulcus",NA
+"RODENTIA","MURIDAE","Aethomys","Aethomys chrysophilus",NA
+"RODENTIA","MURIDAE","Aethomys","Aethomys namaquensis",NA
+"RODENTIA","GLIRIDAE","Graphiurus","Graphiurus murinus",NA
+"LAGOMORPHA","LEPORIDAE","Lepus","Lepus capensis",NA
+"LAGOMORPHA","LEPORIDAE","Lepus","Lepus saxatilis",NA
+"LAGOMORPHA","LEPORIDAE","Pronolagus","Pronolagus crassicaudatus",NA
+"MACROSCELIDEA","MACROSCELIDIDAE","Petrodromus","Petrodromus tetradactylus",NA
+"MACROSCELIDEA","MACROSCELIDIDAE","Elephantulus","Elephantulus brachyrhynchus",NA
+"MACROSCELIDEA","MACROSCELIDIDAE","Elephantulus","Elephantulus myurus",NA

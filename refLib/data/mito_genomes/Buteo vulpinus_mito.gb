@@ -1,0 +1,92 @@
+LOCUS       AF202187                2094 bp    DNA     linear   VRT 26-MAR-2000
+DEFINITION  Buteo buteo vulpinus NADH dehydrogenase subunit 6 (ND6) gene,
+            partial cds; tRNA-Glu gene, complete sequence; mitochondrial DNA
+            pseudo-control region, complete sequence; tRNA-Phe gene, complete
+            sequence; and 12S ribosomal RNA gene, partial sequence;
+            mitochondrial genes for mitochondrial products.
+ACCESSION   AF202187
+VERSION     AF202187.1
+KEYWORDS    .
+SOURCE      mitochondrion Buteo buteo vulpinus (western steppe-buzzard)
+  ORGANISM  Buteo buteo vulpinus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Archelosauria; Archosauria; Dinosauria; Saurischia; Theropoda;
+            Coelurosauria; Aves; Neognathae; Falconiformes; Accipitridae;
+            Accipitrinae; Buteo.
+REFERENCE   1  (bases 1 to 2094)
+  AUTHORS   Haring,E., Riesing,M.J., Pinsker,W. and Gamauf,A.
+  TITLE     Evolution of a pseudo-control region in the mitochondrial genome of
+            Palearctic Buzzards (genus Buteo)
+  JOURNAL   J. Zoolog. Syst. Evol. Res. 37, 185-194 (1999)
+REFERENCE   2  (bases 1 to 2094)
+  AUTHORS   Haring,E., Riesing,M.J., Pinsker,W. and Gamauf,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-NOV-1999) 1 Zoologische Abteilung, Museum of Natural
+            History Vienna, Burgring 7, Vienna A-1014, Austria
+FEATURES             Location/Qualifiers
+     source          1..2094
+                     /organism="Buteo buteo vulpinus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /strain="vul-8"
+                     /sub_species="vulpinus"
+                     /db_xref="taxon:115228"
+     gene            complement(<1..493)
+                     /gene="ND6"
+     CDS             complement(<1..493)
+                     /gene="ND6"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="NADH dehydrogenase subunit 6"
+                     /protein_id="AAF59912.1"
+                     /translation="MAYFVLLLGMGFVLGGLAVASNPSPYYGVVGLVLGSVVGCGWLV
+                     SLGVPFVALVLFMVYLGGMLVVFVYSVCLAADPFPETWGDWRVLGYGAGMVLVLVVGV
+                     VVGGVECWKIGVVTVDNGGTFVDRLDFSGVAMFYSWGAGMFLAAGWGLLLTLFVVLEL
+                     VRGL"
+     tRNA            494..567
+                     /product="tRNA-Glu"
+     misc_feature    568..1498
+                     /note="pseudo-control region"
+     repeat_region   907..1578
+     tRNA            1586..1661
+                     /product="tRNA-Phe"
+     rRNA            1662..>2094
+                     /product="12S ribosomal RNA"
+ORIGIN      
+        1 acaacccacg cacaagctcc agtacaacaa ataacgtcaa caacaaccct cacccggccg
+       61 ccaagaacat ccctgccccc cacgaataaa acatggcaac accactaaaa tccaaccgat
+      121 ccacaaaagt acctccatta tctacagtaa ccaccccaat cttccagcac tcaaccccac
+      181 caacaaccac ccccacaaca agcaccagaa ccatccctgc tccataccct aaaactcgtc
+      241 aatcccctca agtctccgga aaaggatccg ctgctaagca gactgaataa acaaaaacca
+      301 ctaacattcc acctaaatac accataaaca acactaaagc cacaaacggt actcctagac
+      361 ttaccaacca cccacaccct acaacagacc ccaacaccaa cccaactacc ccataataag
+      421 gcgacgggtt agatgccacc gccaaacccc ctaaaacaaa ccccatcccc agaagaagga
+      481 caaaataagc cattataatt tctgcttggc ttctctccaa aacctacgac ctgaaaaatc
+      541 gccgttgtaa acttcaacta cagaaaccta gcaaaaccat ctatatcacc caccagcaat
+      601 cctaaagcaa ccatacaatt aaaacacact acacaatcac tctactacat tccaccaagt
+      661 cctacctacc cattttcccc tacccacaaa caacatccaa ccacctttaa acactgcaca
+      721 taatcatacc tttcacaaat tttatccatg ctttttcaca tttcatctac caaacaccac
+      781 tggagttcca ttaattattt caaacaattt atcatattta tatacataaa ctgcacaaat
+      841 cacacaaaat attaatgcaa cccccctacc aaaccatgta accaaacaac cataaaacaa
+      901 acaactagca atactaccaa agccctaaac aagtaactaa tactctaagc aatgagcaat
+      961 actaccaaag ccctaaacaa gtaactaata ctctaagcaa tgagcaatac taccaaagcc
+     1021 ctaaacaagt aactaatact ctaagcaatg agcaatacta ccaaagccct aaacaagtaa
+     1081 ctaatactct aagcaatgag caatactacc aaagccctaa acaagtaact aatactctaa
+     1141 gcaatgagca atactaccaa agccctaaac aagtaactaa tactctaagc aatgagcaat
+     1201 actaccaaag ccctaaacaa gtaactaata ctctaagcaa tgagcaatac taccaaagcc
+     1261 ctaaacaagt aactaatact ctaagcaatg agcaatacta ccaaagccct aaacaagtaa
+     1321 ctaatactct aagcaatgag caatactacc aaagccctaa acaagtaact aatactctaa
+     1381 gcaatgagca atactaccaa agccctaaac aagtaactaa tactctaagc aatgagcaat
+     1441 actaccaaag ccctaaacaa gtaactaata ctctaagcaa tgagcaatac taccaaagcc
+     1501 ctaaacaagt aactaatact ctaagcaatg agcaatacta ccaaagccct aaacaagtaa
+     1561 ctaatactct aagcaatgag caatactacg agtcccagta gcttacaata aagcatggca
+     1621 ctgaagatgc caagatggtt actacacata acccacggac aaaagactta gtcctaacct
+     1681 tgctgttaac tcttgctaaa catatacatg caagtatccg cgccccagtg taaatgccct
+     1741 taatttctta ctaagataat aggagctggt atcaggcaca cccacctagc tgtagcccaa
+     1801 gacaccttgc tctgccacac ccccacgggc actcagcagt aattaacatt aagcaataag
+     1861 tgtaaacttg acttagttat agcatacctc agggttggta aatcttgtgc cagccgccgc
+     1921 ggtcatacaa gagacccaag ctaacagcat ccggcgtaaa gagcgggtac atactatcta
+     1981 ggcgactagg attaaatcgc aactgagctg tcataagccc aagatacgcc taaagccatc
+     2041 cccaagacga ccctagcgcc cacgattgac taacccccgc gaaagccagg gctc
+//
+

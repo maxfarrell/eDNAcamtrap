@@ -1,0 +1,289 @@
+LOCUS       X57245                  2814 bp    DNA     linear   VRT 27-JUN-2018
+DEFINITION  C.coturnix mitochondrial nd6 gene for NADH dehydrogenase and
+            tRNA-Glu, tRNA-Phe, tRNA-Val, 12S rRNA & 16S rRNA genes.
+ACCESSION   X57245
+VERSION     X57245.1
+KEYWORDS    12S ribosomal RNA; 16S ribosomal RNA; NADH dehydrogenase
+            (ubiquinone); NADH dehydrogenase complex; ND6 gene; transfer
+            RNA-Glu; transfer RNA-Phe; transfer RNA-Val.
+SOURCE      mitochondrion Coturnix coturnix (Common quail)
+  ORGANISM  Coturnix coturnix
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Archelosauria; Archosauria; Dinosauria; Saurischia; Theropoda;
+            Coelurosauria; Aves; Neognathae; Galloanserae; Galliformes;
+            Phasianidae; Perdicinae; Coturnix.
+REFERENCE   1  (bases 1 to 2814)
+  AUTHORS   Desjardins,P. and Morais,R.
+  TITLE     Nucleotide sequence and evolution of coding and noncoding regions
+            of a quail mitochondrial genome
+  JOURNAL   J. Mol. Evol. 32 (2), 153-161 (1991)
+   PUBMED   1706782
+REFERENCE   2  (bases 1 to 2814)
+  AUTHORS   Morais,R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (14-JAN-1991) R. Morais, DEPT DE BIOCHIMIE, UNIVERSITE DE
+            MONTREAL, CP 6128 SUCC. A, MONTREAL QUEBEC, CANADA H3C 3J7
+COMMENT     See also X57246.
+FEATURES             Location/Qualifiers
+     source          1..2814
+                     /organism="Coturnix coturnix"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /strain="ssp. Japonica"
+                     /db_xref="taxon:9091"
+                     /haplotype="diploid"
+                     /tissue_type="liver"
+                     /dev_stage="adult"
+     gene            complement(<1..230)
+                     /gene="nd6"
+     CDS             complement(<1..230)
+                     /gene="nd6"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="NADH dehydrogenase"
+                     /protein_id="CAA40521.1"
+                     /db_xref="GOA:P24981"
+                     /db_xref="InterPro:IPR001457"
+                     /db_xref="UniProtKB/Swiss-Prot:P24981"
+                     /translation="MTYFVIFLGVCFMLGTLAVASNPSPYYGVVGLVLASVVGCGWLV
+                     NLGVSFVSLVLFMIYLGGMLVVFVYSVSLAADP"
+     gene            complement(232..299)
+                     /gene="tRNA-Glu"
+     tRNA            complement(232..299)
+                     /gene="tRNA-Glu"
+                     /product="tRNA-Glu"
+     gene            300..1452
+                     /gene="nd6"
+     D-loop          300..1452
+                     /gene="nd6"
+     gene            1453..1520
+                     /gene="tRNA-Phe"
+     tRNA            1453..1520
+                     /gene="tRNA-Phe"
+                     /product="tRNA-Phe"
+     gene            1521..2491
+                     /gene="12S rRNA"
+     rRNA            1521..2491
+                     /gene="12S rRNA"
+                     /product="12S ribosomal RNA"
+     gene            2492..2562
+                     /gene="tRNA-Val"
+     tRNA            2492..2562
+                     /gene="tRNA-Val"
+                     /product="tRNA-Val"
+     gene            2563..2814
+                     /gene="16S rRNA"
+     rRNA            2563..2814
+                     /gene="16S rRNA"
+                     /product="16S ribosomal RNA"
+ORIGIN      
+        1 ggatccgcag ctaaagaaac agaatacaca aaaaccacca acatcccccc taaataaatc
+       61 ataaacaaca ccaaagaaac aaaagaaacc cctaaattca ccaaccaccc acaccctacc
+      121 acagacgcta acaccaaccc caccacccca taatacggcg aaggattaga cgctacagcc
+      181 aaagtcccca acatgaaaca aactcctaaa aaaatcacaa aataagtcat atattcccgc
+      241 ttggatagac cccaaggact acggcttgaa aagccattgt tgttctcaac tacgggaaca
+      301 acactttttt taacctaact cccctactta gtgtaccccc cctttcccca gggggggtat
+      361 actatgcata atcgtgcata catttatatt ccacatatac tatggtaccg gtaatatata
+      421 ttatatacgt actaaaccca ttatatgtat acgggcatta catattgtcc ccatttctcc
+      481 ccatgtacat tagtgcatgc tccaagacat aaaccatacg ttcacctagt aatagacttt
+      541 ccactaacag gacaccataa ctatgaatgg ttgcaggaca taagcttact aaatacttag
+      601 ctccccattt ggttatgcta gacgtaccag atggatttat tgatcgtaca cctcacgaga
+      661 gatcaccaac ccctgtctgt aatgctattc cgtgactagc ttcaggccca ttctttcccc
+      721 ctacacccct cgcccctctt gctcttttgc gcctctggtt cctcggtcag gcacatcccc
+      781 cgcataactc ctgaactttc tcacttttca cgaagtcatc tgtgcgttat cctgcccctc
+      841 ttcagtccgt gatcgcggca tttcctttct tctctgctgt tggttcttct tctctttggg
+      901 gcttcttcac aggttgccct tcacagtgcc gtcgccagag tcctactcaa gtgaagcctg
+      961 gactactcct gcgttgcgtc ctatcctaga cctctagtgt ccctcgatga tacggtttgc
+     1021 gtgtattggg tatcattttg acactgatgc actttggatc gcatttggtt atggctcttc
+     1081 cacccccccc gataatggtg ctatatagtg aatgcttgcc ggacatattt ttaccaattt
+     1141 tcacttcctc tatttttcta acaaaactag ggagttttcc aaattttttt tgtttgtttt
+     1201 gtttaatttt ttttttgttt tttaaaaaca ttttttaaaa aactaaatta catacaaact
+     1261 caccgcacaa ataccctcaa accacaaaaa cgttttacgt ttagtatata tacattgtta
+     1321 cgtttatata attattagag aaactccact accgaaacaa acataaaaac aaacaaaact
+     1381 attccgcata aacttccaca aacatatatt atttatattg ttaattacaa tcaattttta
+     1441 ttcccctaga aagcccacat agcttaacac aaagcatggc actgaagatg ccaagacggt
+     1501 acacagatta cctgtggaca aaagactcag tcctaacctt actattggtt tttgctagac
+     1561 atatacatgc aagtatccgc atcccagtga gaatgcccca caaaccttta tcttccaaag
+     1621 caaaaggagc aggtatcagg cgcactttaa tagttagccc aaaacgcctt gttcaagcca
+     1681 cacccccacg ggtattcagc agtaattaac attaagcaat aagtgtaaac ttgacttagc
+     1741 catagcaaga ccacagggtt ggtaaatctt gtgccagcca ccgcggtcac acaagaagcc
+     1801 caaatcaata gccatccggc gtaaagagtg gccacatgtt atcttcatta actaagatca
+     1861 aaatggaacc aagctgtcat aagcccagga tccacctaag cccaacataa aaaccatctt
+     1921 agccacatga tcaatttcaa tccacgaaag ccagggcaca aactgggatt agatacccca
+     1981 ctatgcctag ccctaaatct agatacccac atacttatgt atccgcctga gaactacgag
+     2041 cacaaacgct taaaactcta aggacttggc ggtgccccaa acccacctag aggagcctgt
+     2101 tctataaccg ataatccacg atctacccaa ccaccccttg ccaacacagc ctacataccg
+     2161 ccgtcgccag cccacttaat gaaagaacaa cagtgagctc aatagccgcc actaataaga
+     2221 caggtcaagg tatagcctat gggatggaag aaatgggcta cattttctaa aatagaacaa
+     2281 acgaaaaagg acatgaaacc tggtccttgg aaggaggatt tagcagtaaa atgggatcac
+     2341 tttgcccact ttaagatggc cctgaggcac gtacataccg cccgtcaccc tcttcaaaag
+     2401 ctactaatac cgataaataa cacccaacca ttaagccaaa gacgaggtaa gtcgtaacaa
+     2461 ggtaagtgta ccggaagtgc acttagacca ccaaggcgta gctataagct ccaaagcatt
+     2521 cagcttacac ctgaaagatg cccccaataa gggtcgcctt gatttgccct acctctagcc
+     2581 caaccaacaa atcttcaaaa aatccaaaat cacctcacac agtttaatta aaacatttaa
+     2641 tcttatccta gtataggcga tagaaccgac ccgaggcgca atagagacca accgtaccgt
+     2701 aagggaaaga tgaaataaca atgaaaaaca caagcaaaaa gcagtaaaga caaacccttg
+     2761 tacctcttgc atcatgattt agcaagaaca accaagcaaa gcggactaaa gctt
+//
+
+LOCUS       X57246                  2144 bp    DNA     linear   VRT 27-JUN-2018
+DEFINITION  C.coturnix mitochondrial nd1, nd2 & co1 genes for NADH
+            dehydrogenase and tRNA-ILe, tRNA-Gln, tRNA-Met, tRNA-Trp, tRNA-Ala,
+            tRNA-Asn, tRNA-Cys & tRNA-Tyr.
+ACCESSION   X57246
+VERSION     X57246.1
+KEYWORDS    co1 gene; NADH dehydrogenase (ubiquinone); NADH dehydrogenase
+            complex; ND1 gene; ND2 gene; transfer RNA-Ala; transfer RNA-Asn;
+            transfer RNA-Cys; transfer RNA-Gln; transfer RNA-Ile; transfer
+            RNA-Met; transfer RNA-Trp; transfer RNA-Tyr.
+SOURCE      mitochondrion Coturnix coturnix (Common quail)
+  ORGANISM  Coturnix coturnix
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Archelosauria; Archosauria; Dinosauria; Saurischia; Theropoda;
+            Coelurosauria; Aves; Neognathae; Galloanserae; Galliformes;
+            Phasianidae; Perdicinae; Coturnix.
+REFERENCE   1  (bases 1 to 2144)
+  AUTHORS   Desjardins,P. and Morais,R.
+  TITLE     Nucleotide sequence and evolution of coding and noncoding regions
+            of a quail mitochondrial genome
+  JOURNAL   J. Mol. Evol. 32 (2), 153-161 (1991)
+   PUBMED   1706782
+REFERENCE   2  (bases 1 to 2144)
+  AUTHORS   Morais,R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (14-JAN-1991) R. Morais, DEPT DE BIOCHIMIE, UNIVERSITE DE
+            MONTREAL, CP 6128 SUCC. A, MONTREAL QUEBEC, CANADA H3C 3J7
+COMMENT     See also X57245.
+FEATURES             Location/Qualifiers
+     source          1..2144
+                     /organism="Coturnix coturnix"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /strain="ssp. Japonica"
+                     /db_xref="taxon:9091"
+                     /haplotype="diploid"
+                     /tissue_type="liver"
+                     /dev_stage="adult"
+     gene            <1..220
+                     /gene="nd1"
+     CDS             <1..220
+                     /gene="nd1"
+                     /codon_start=2
+                     /transl_table=2
+                     /product="NADH dehydrogenase"
+                     /protein_id="CAA40522.1"
+                     /db_xref="GOA:P24968"
+                     /db_xref="InterPro:IPR001694"
+                     /db_xref="InterPro:IPR018086"
+                     /db_xref="UniProtKB/Swiss-Prot:P24968"
+                     /translation="SFLSPPSELFSITLATKVLLLSSSFLWIRASYPRFRYDQLMHLL
+                     WKNFLPLTLAMCLWHTSMPISYAGLPPA"
+     gene            221..291
+                     /gene="tRNA-Ile"
+     tRNA            221..291
+                     /gene="tRNA-Ile"
+     gene            complement(297..367)
+                     /gene="tRNA-Gln"
+     tRNA            complement(297..367)
+                     /gene="tRNA-Gln"
+     gene            367..435
+                     /gene="tRNA-Met"
+     tRNA            367..435
+                     /gene="tRNA-Met"
+     gene            436..1476
+                     /gene="nd2"
+     CDS             436..1476
+                     /gene="nd2"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="NADH dehydrogenase"
+                     /protein_id="CAA40523.1"
+                     /db_xref="GOA:P24971"
+                     /db_xref="InterPro:IPR001750"
+                     /db_xref="InterPro:IPR003917"
+                     /db_xref="InterPro:IPR010933"
+                     /db_xref="UniProtKB/Swiss-Prot:P24971"
+                     /translation="MNPHAKLISIMSLALGTSITISSNHWILAWTGLEINTLAIIPLI
+                     SKSHHPRAIEAAIKYFLTQSTASALILFSSMNNAWSTGQWDITQLNHPTSCLILTMAI
+                     AIKLGLVPFHFWFPEVLQGSSLITALLLSTLMKLPPMTLLLMTSQSLNPALLTLLAVS
+                     SALVGGWMGLNQTQTRKILAFSSIXHLGWMIVIIIYNPKLTILTFIIYSLMTSTVFLS
+                     LSQIKVLKLSTMLISWTKTPMLNSTIMVTLLSLAGLPPLTGFMPKWLIIQELTKQEMT
+                     PVATTIAMLSLLGLFFYLRLAYHSTITLPPNSSNHMKLWRINTTPNTPTAILTVLSIS
+                     LLPLSPLITTLV"
+     gene            1475..1549
+                     /gene="tRNA-Trp"
+     tRNA            1475..1549
+                     /gene="tRNA-Trp"
+     gene            complement(1556..1624)
+                     /gene="tRNA-Ala"
+     tRNA            complement(1556..1624)
+                     /gene="tRNA-Ala"
+     gene            complement(1624..1699)
+                     /gene="tRNA-Asn"
+     tRNA            complement(1624..1699)
+                     /gene="tRNA-Asn"
+     gene            complement(1700..1765)
+                     /gene="tRNA-Cys"
+     tRNA            complement(1700..1765)
+                     /gene="tRNA-Cys"
+     gene            complement(1765..1835)
+                     /gene="tRNA-Tyr"
+     tRNA            complement(1765..1835)
+                     /gene="tRNA-Tyr"
+     gene            1837..>2143
+                     /gene="co1"
+     CDS             1837..>2143
+                     /gene="co1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="NADH dehydrogenase"
+                     /protein_id="CAA40524.1"
+                     /db_xref="GOA:P24984"
+                     /db_xref="InterPro:IPR000883"
+                     /db_xref="InterPro:IPR023615"
+                     /db_xref="InterPro:IPR023616"
+                     /db_xref="InterPro:IPR033944"
+                     /db_xref="InterPro:IPR036927"
+                     /db_xref="UniProtKB/Swiss-Prot:P24984"
+                     /translation="MTFINRWLFSTNHKDIGTLYLIFGTWAGMAGTALSLLIRAELGQ
+                     PGTLLGDDQIYNVIVTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMS
+                     "
+ORIGIN      
+        1 aagcttcctg agccccccct cagaactatt ctctattaca ctcgccacta aagtcctact
+       61 tctctcatct tcattcttat gaatccgagc ttcataccca cgattccgct atgatcaact
+      121 aatacatctt ctatgaaaaa atttcctacc cctaacccta gccatatgtc tctgacatac
+      181 cagcatacct atcagctatg ccggccttcc cccagcttaa ggaagcgtgc ctgaacaaaa
+      241 gggccactat gataaagtgg acatagaggt aaaacaaccc tctcgcctcc taaaccttag
+      301 aaaagtagga attgaaccta cacgaaagag atcaaaactc ttcatacttc ccttatatta
+      361 ttttctagta aggtcagcta atcaagctat cgggcccata ccccgaaaat gatggtttaa
+      421 atccttccct cactaatgaa tccccatgca aaactaatct ctatcataag cctagcccta
+      481 gggaccagta tcacaatctc tagcaaccat tgaatcttag cctgaacagg tctagaaatc
+      541 aataccctag ccatcatccc actaatctca aaatcacacc accctcgagc aatcgaagca
+      601 gcaatcaaat acttcctaac ccaatcaacc gcatccgccc taatcctctt ctcaagcata
+      661 aacaacgcct gatctactgg tcaatgagac attacacaac ttaaccaccc cacatcctgc
+      721 ctaatcctaa caatagccat tgcaatcaaa ctaggtctag ttccattcca cttctgattc
+      781 cctgaagttc ttcaaggctc ctccctaatc acagcccttc tactctctac cctaataaaa
+      841 ctccccccaa taacccttct cctcataaca tcccaatccc ttaaccctgc cctcctcact
+      901 ctactagcag tttcctccgc attagttgga ggctgaatag gcctaaacca aacacaaaca
+      961 cgaaaaatcc tagccttctc atccatcncc cacctaggat gaataatcgt gattattatt
+     1021 tacaacccaa aactcaccat cctaaccttc atcatctact cattaataac atccactgta
+     1081 ttcctatctc tctcgcaaat caaagtccta aaactatcca caatactcat ctcctgaaca
+     1141 aaaaccccaa tactaaattc aaccattata gttaccctcc tctccctagc aggcctccca
+     1201 ccactaaccg gtttcatgcc aaaatgactc attatccaag aacttactaa acaagaaata
+     1261 accccagtag ctacaaccat tgcaatatta tcattacttg gcctattctt ctatctccgc
+     1321 cttgcatacc attcaacaat cacacttcca cctaactcat ctaaccatat aaaactctga
+     1381 cgcatcaaca caacaccaaa cacccccacc gctatcctaa ccgtcctatc aatctcttta
+     1441 ctccccctct ctcccctaat cactacttta gtttagaaac ttaggattaa ttgcacttaa
+     1501 accaaaggcc ttcaaagcct taaataagag ttgaaccctc ttagtttctg ctaattaaga
+     1561 tctacagggc actaacctgt atcttctgaa tgcaaaccag acactttaat taagctaaga
+     1621 cctcccctag acagatgggc ttcgatccca tatcattcta gttaacagct agacgccata
+     1681 acccattagc ttctgtctaa gaccccggca tgctttaaca tacatcaatg agcttgcaac
+     1741 tcaccatgaa cttcaccaca gggccgataa gaagaggaat tgaacctctg taaaaaggac
+     1801 tacagcctaa cgccttgaca ctcggccatc ttacctgtga ccttcatcaa ccgatgacta
+     1861 ttttcaacta accacaaaga cattggcact ctttatctta tttttggtac atgagcaggc
+     1921 atagccggta cagcacttag cttgttaatc cgcgcagaac taggacaacc aggcaccctc
+     1981 ctaggagatg accaaattta caatgtaatt gtcacagcac atgccttcgt cataatcttc
+     2041 tttatagtca taccaattat aattggaggc ttcggaaatt gactcgtccc acttataatc
+     2101 ggagccccag acatagcatt cccacgtatg aataacataa gcta
+//
+
