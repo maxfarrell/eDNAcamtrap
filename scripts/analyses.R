@@ -263,12 +263,51 @@ require(ggcorrplot);packageVersion("ggcorrplot")#0.1.3
 
 
 # loading data
-load("../../data/merged_eDNA_camtrap_data_nov20_2019.RData")
+load("../data/merged_eDNA_camtrap_data_nov20_2019.RData")
 
 # merging & cleaning species
 trap$species[trap$species=="whiterhino"] <- "rhino"
 trap <- trap[trap$species!="frog",]
 trap <- trap[trap$species!="fox",]
+
+
+
+## Composition of BLANKS
+blanks
+
+## Composition of BLANKS
+ps_blank <- subset_samples(ps_80, site=="BLANK")
+
+# remove zero-abundance taxa
+ps_blank <- filter_taxa(ps_blank, function(x) sum(x) > 0, TRUE)
+sum(otu_table(ps_blank))# 5,066
+dim(otu_table(ps_blank))# 54 taxa
+tax_table(ps_blank)
+
+# 52/54 ASVs could not be assigned a Class, 
+# while the remaining 2 were assigned to "Aves", but could not be
+# assigned to Order level.
+
+
+blank_taxa <- colnames(otu_table(ps_blank))
+# otu_table(ps_blank)[,blank_taxa]
+
+# Reads in Blanks
+ps_nonblank <- subset_samples(ps_80, site!="BLANK")
+# total reads for taxa found in blanks
+sum(otu_table(ps_nonblank)[,blank_taxa])
+# None of the ASVs found in the Blanks were found in the other samples
+
+# ASVs in Blanks
+blank1 <- otu_table(ps_blank)[1,]
+blank2 <- otu_table(ps_blank)[2,]
+
+# which ASVs are found in both
+blank1_non0 <- blank1[,blank1>0]
+blank2_non0 <- blank2[,blank2>0]
+union(colnames(blank1_non0), colnames(blank2_non0))#54 ASVs total
+intersect(colnames(blank1_non0), colnames(blank2_non0))#8 ASVs found in both blanks
+
 
 
 # CALCULATE CAMERA OVERLAPS AS COUNTS PER SITE
@@ -360,6 +399,7 @@ colnames(cam_mat_small)
 colnames(edna_mat)
 
 cor(c(cam_mat_small), c(edna_mat), use="complete.obs")# 0.39
+cor.test(c(cam_mat_small), c(edna_mat), use="complete.obs")# p=0.003
 
 grad_len <- max(cam_mat_small, na.rm=T)
 
@@ -402,6 +442,7 @@ ggsave("../plots_tables/camera_overlap_36h.pdf", p4, height=8, width=8)
 
 cam_mat_small <- cam_mat[intersect(rownames(edna_mat), rownames(cam_mat)),intersect(colnames(edna_mat), colnames(cam_mat))]
 cor(c(cam_mat_small), c(edna_mat), use="complete.obs")# 0.57
+cor.test(c(cam_mat_small), c(edna_mat), use="complete.obs")# p<0.0001
 
 # Plotting pruned 36h cam_mat
 
