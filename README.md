@@ -1,5 +1,6 @@
 ## Data & Code Supplement for "Environmental DNA as a management tool for tracking artificial waterhole use in savanna ecosystems"
 
+[![DOI](https://zenodo.org/badge/59169183.svg)](https://zenodo.org/badge/latestdoi/59169183)
 
 ## Reference Libraries (refLib folder)
 
