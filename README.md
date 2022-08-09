@@ -1,5 +1,4 @@
-# "Environmental DNA as a management tool for
-tracking artificial waterhole use in savanna ecosystems"
+# "Environmental DNA as a management tool for tracking artificial waterhole use in savanna ecosystems"
 
 
 ## Reference Libraries (refLib folder)
